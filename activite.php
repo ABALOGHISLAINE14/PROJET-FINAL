@@ -13,10 +13,15 @@
    
     <!-- custom css file link -->
     <link rel="stylesheet" href="style.css">
-</head>
-<body>
 
-   <!-- header section starts -->
+    <!-- boostrap --><!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+</head>
+    
+<body>
+    
+    <!--Starts header section -->
    <section class="header">
     <img src="./IMAGES/logo.png.jpg" class="logo" alt="">
     <!-- <a href="accueil.php" class="logo"> <img src="images/logo.png" alt=""> LOGO</a> -->
@@ -31,60 +36,122 @@
     </nav>
     <div id="menu-btn" class="fas fa-bars"></div>
    </section>
-   <!-- header section ends -->
+   <!-- Ends header section -->
 
-   <!-- activité section -->
-   
-   <section class="activite">
-    <!-- sous-section une -->
-
-    <div class="titre1">
-        
+   <!-- Start section une -->
+    <section class="">
+      <div class="titre1">
         <div class="titre0">
-        <h1>LES ACTIVITES DE L'ASSOCIATION DES JEUNES POUR LE DEVELOPPEMENT LOCAL</h1>
+            <h1>LES ACTIVITES DE L'ASSOCIATION DES JEUNES POUR LE DEVELOPPEMENT LOCAL</h1>
         </div>
+      </div>
+    </section>
+
+    <!-- section deux -->
+
+    <section class="activite">
+
+      <div class="container">
+        <div class="row">
+        
+          <div class="col-lg-4 act">
+            <img src="./IMAGES/image9.jpg" alt="">
+
+          </div>
+          <div class="col-lg-4 act">
+            <H2>ENTREPREUNARIAT</H2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+              Fuga molestias cupiditate eum dolores voluptas, 
+              voluptates quasi explicabo. 
+              Molestias nostrum obcaecati deleniti excepturi! 
+              Quibusdam maiores voluptates nisi corporis modi dignissimos
+               inventore dicta obcaecati ad itaque veniam doloremque in, 
+              aliquam labore ipsum corrupti expedita a ratione nemo?Lorem ipsum dolor sit amet, 
+              consectetur adipisicing elit. 
+              Fuga molestias cupiditate eum dolores voluptas, 
+              voluptates quasi explicabo. 
+              Molestias nostrum obcaecati deleniti excepturi! 
+              Quibusdam maiores voluptates nisi corporis modi dignissimos
+               inventore dicta obcaecati ad itaque veniam doloremque in, 
+              aliquam labore ipsum corrupti expedita a ratione nemo?
+            </p> <br>
+            <button type="button" class="btn btn-warning">Découvrir</button>
+          </div>
         </div>
+      </div>
+      <div class="container">
+        <div class="row">
+        
+          <div class="col-lg-4 act">
+            <img src="./IMAGES/image9.jpg" alt="">
+
+          </div>
+          <div class="col-lg-4 act">
+            <H2>TOURISME</H2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+              Fuga molestias cupiditate eum dolores voluptas, 
+              voluptates quasi explicabo. 
+              Molestias nostrum obcaecati deleniti excepturi! 
+              Quibusdam maiores voluptates nisi corporis modi dignissimos
+               inventore dicta obcaecati ad itaque veniam doloremque in, 
+              aliquam labore ipsum corrupti expedita a ratione nemo?Lorem ipsum dolor sit amet, 
+              consectetur adipisicing elit. 
+              Fuga molestias cupiditate eum dolores voluptas, 
+              voluptates quasi explicabo. 
+              Molestias nostrum obcaecati deleniti excepturi! 
+              Quibusdam maiores voluptates nisi corporis modi dignissimos
+               inventore dicta obcaecati ad itaque veniam doloremque in, 
+              aliquam labore ipsum corrupti expedita a ratione nemo?
+            </p> <br>
+            <button type="button" class="btn btn-warning">Découvrir</button>
+          </div>
+        </div>
+      </div><div class="container">
+        <div class="row">
+        
+          <div class="col-lg-4 act">
+            <img src="./IMAGES/image9.jpg" alt="">
+
+          </div>
+          <div class="col-lg-4 act">
+            <H2>CULTURE</H2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+              Fuga molestias cupiditate eum dolores voluptas, 
+              voluptates quasi explicabo. 
+              Molestias nostrum obcaecati deleniti excepturi! 
+              Quibusdam maiores voluptates nisi corporis modi dignissimos
+               inventore dicta obcaecati ad itaque veniam doloremque in, 
+              aliquam labore ipsum corrupti expedita a ratione nemo?Lorem ipsum dolor sit amet, 
+              consectetur adipisicing elit. 
+              Fuga molestias cupiditate eum dolores voluptas, 
+              voluptates quasi explicabo. 
+              Molestias nostrum obcaecati deleniti excepturi! 
+              Quibusdam maiores voluptates nisi corporis modi dignissimos
+               inventore dicta obcaecati ad itaque veniam doloremque in, 
+              aliquam labore ipsum corrupti expedita a ratione nemo?
+            </p> <br>
+            <button type="button" class="btn btn-warning">Découvrir</button>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!-- End de la section deux -->
+
+
     
-    </div>
-    <!-- fin de la sous section une -->
-
-    <!-- debut de la sous section deux -->
-    <div class="partie2">
-      <div class="">
-        <img src="./IMAGES/image7.jpg" alt=""> <br>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Assumenda ut ipsum sequi dignissimos adipisci vel debitis porro, 
-        molestiae magni tempora? 
-        Nesciunt ipsa ducimus eos nulla dolores corrupti aliquam, error repudiandae.
-      </div>
-      <div class="">
-        <img src="./IMAGES/image10.jpg" alt=""> <br>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Nobis illo, voluptate itaque suscipit magni totam molestiae excepturi 
-        non provident ea illum mollitia minus aspernatur, veniam fugit cum. 
-        Quae, id delectus?
-      </div>
-      
-      <div class="">
-        <img src="./IMAGES/image10.jpg" alt=""> <br>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Nobis illo, voluptate itaque suscipit magni totam molestiae 
-        excepturi non provident ea illum mollitia minus aspernatur,
-         veniam fugit cum. Quae, id delectus?
-      </div>
-
-    </div>
-
-   </section>
-   
 
 
 
-  <!-- footer section start -->
 
-  <section class="footer">
+    <!-- footer section start -->
 
-  <div class="box-container">
+    <section class="footer">
+
+    <div class="box-container">
     <div class="box">
     <h3>Navigation</h3>
     <a href="accueil.php"> <i class="fas fa-angle-right"></i> Accueil</a>
@@ -121,21 +188,29 @@
     <br>
 
     <div class="input-group flex-nowrap">
-    <span class="input-group-text" id="addon-wrapping">Email : </span>
-     <input type="text" class="form-control" placeholder="Entrer votre mail" aria-label="Username" aria-describedby="addon-wrapping"> <button>envoyer</button>
+    <span class="input-group-text" id="addon-wrapping"> @</span>
+     <input type="text" class="form-control" 
+     placeholder="Entrer votre mail" aria-label="Username" aria-describedby="addon-wrapping"> <br>
+     <br>
+     <button type="button" class="btn btn-dark">subcsribe</button>
+
     </div>
      <br>
     </div>
     </div>
 
-    <div class="box2">created by <span>mr. web designer</span> all rights reserved</div>
+    <div class="box2">created by <span>web designer</span> all rights reserved</div>
 
-  </section>
+    </section>
+
     <!-- footer section ends -->
 
-  <!-- swiper js link -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-  <!-- custom js file link -->
-  <script src="script.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+    <!-- swiper js link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- custom js file link -->
+    <script src="script.js"></script>
 </body>
 </html>

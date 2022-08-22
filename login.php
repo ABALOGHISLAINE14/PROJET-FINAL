@@ -13,17 +13,22 @@
    
     <!-- custom css file link -->
     <link rel="stylesheet" href="style.css">
-</head>
-<body>
 
-   <!-- header section starts -->
+    <!-- boostrap --><!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+</head>
+    
+<body>
+    
+    <!--Starts header section -->
    <section class="header">
     <img src="./IMAGES/logo.png.jpg" class="logo" alt="">
     <!-- <a href="accueil.php" class="logo"> <img src="images/logo.png" alt=""> LOGO</a> -->
     <nav class="navbar">
     <a href="accueil.php">ACCUIEL</a>
     <a href="ajdl.php">AJDL</a>
-    <a href="activité.php">ACTIVITES</a>
+    <a href="activite.php">ACTIVITES</a>
     <a href="offres.php">OFFRES</a>
     <a href="projet.php">PROJETS</a>
     <a href="contact.php">CONTACT</a>
@@ -31,38 +36,48 @@
     </nav>
     <div id="menu-btn" class="fas fa-bars"></div>
    </section>
-   <!-- header section ends -->
+   <!-- Ends header section -->
+
+
+   <!-- accueil section -->
    
-   <!-- BODY SECTION STARTS -->
-   
-   <div class="">
-    <h1>ASSOCIATION DES JEUNES POUR LE DEVELOPPEMNET LOCAL</h1>
-   </div>
+   <section class="accueil">
+    <!-- sous-section une -->
+
+    <div class="titre1">
+        
+        <div class="titre0">
+            <h1>BIENVENUE A L'ASSOCIATION DES JEUNES POUR LE DEVELOPPEMENT LOCAL</h1>
+        </div>
+    </div>
+    <!-- end sous section une -->
+
+    
+          
 
 
 
+    <!-- footer section start -->
 
-<!-- footer section start -->
+    <section class="footer">
 
-<section class="footer">
-
-<div class="box-container">
+    <div class="box-container">
     <div class="box">
-    <h3>MENU</h3>
-    <a href="accueil.php"> <i class="fas fa-angle-right"></i> ACCUIEL</a>
-    <a href="ajdl.php"> <i class="fas fa-angle-right"></i>  AJDL</a>
-    <a href="activité.php"> <i class="fas fa-angle-right"></i>  ACTIVITES</a>
-    <a href="offres.php"> <i class="fas fa-angle-right"></i> OFFRES</a>
-    <a href="projet.php">  <i class="fas fa-angle-right"></i> PROJETS</a>
-    <a href="contact.php"> <i class="fas fa-angle-right"></i> CONTACT</a>
-    <a href="login.php">  <i class="fas fa-angle-right"></i> INSCRIPTION</a> 
+    <h3>Navigation</h3>
+    <a href="accueil.php"> <i class="fas fa-angle-right"></i> Accueil</a>
+    <a href="ajdl.php"> <i class="fas fa-angle-right"></i>  Adjl</a>
+    <a href="activite.php"> <i class="fas fa-angle-right"></i>  ACTIVITES</a>
+    <a href="offres.php"> <i class="fas fa-angle-right"></i> Offres</a>
+    <a href="projet.php">  <i class="fas fa-angle-right"></i> Projets</a>
+    <a href="contact.php"> <i class="fas fa-angle-right"></i> Contact</a>
+    <a href="login.php">  <i class="fas fa-angle-right"></i> Login</a> 
     </div>
     
     <div class="box">
-    <h3>Nous contacter</h3>
+    <h3>Contactez-nous</h3>
     <a href="accueil.php"> <i class="fas fa-phone"></i> 228 92 07 36 95</a>
     <a href="ajdl.php"> <i class="fas fa-phone"></i>  228 90 91 98 18</a>
-    <a href="activité.php"> <i class="fas fa-envelope"></i>sylvieabalo48@gmail.com</a>
+    <a href="activite.php"> <i class="fas fa-envelope"></i>sylvieabalo48@gmail.com</a>
     <a href="projet.php">  <i class="fas fa-map"></i> TOGO-LOME</a>
      
     </div>
@@ -71,7 +86,7 @@
     <h3>Follow us</h3>
     <a href="accueil.php"> <i class="fab fa-facebook"></i> Facebook</a>
     <a href="ajdl.php"> <i class="fab fa-twitter"></i>Twitter</a>
-    <a href="activité.php"> <i class="fab fa-instagram"></i>instagram</a>
+    <a href="activite.php"> <i class="fab fa-instagram"></i>instagram</a>
     <a href="offres.php"> <i class="fab fa-linkedin"></i> Linkedin</a>
     </div>
 
@@ -82,26 +97,30 @@
     </label> <br>
     <br>
 
-    <input type="text" > <br>
-    <br>
-    <button>Subscribe</button>
+    <div class="input-group flex-nowrap">
+    <span class="input-group-text" id="addon-wrapping"> @</span>
+     <input type="text" class="form-control" 
+     placeholder="Entrer votre mail" aria-label="Username" aria-describedby="addon-wrapping"> <br>
+     <br>
+     <button type="button" class="btn btn-dark">subcsribe</button>
+
+    </div>
+     <br>
+    </div>
     </div>
 
+    <div class="box2">created by <span>web designer</span> all rights reserved</div>
 
+    </section>
 
+    <!-- footer section ends -->
 
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 
-
-</div>
-
-<div class="box2">created by <span>mr. web designer</span> all rights reserved</div>
-
-</section>
-<!-- footer section ends -->
-
-<!-- swiper js link -->
-<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-<!-- custom js file link -->
-<script src="script.js"></script>
+    <!-- swiper js link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- custom js file link -->
+    <script src="script.js"></script>
 </body>
 </html>

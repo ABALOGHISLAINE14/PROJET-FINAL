@@ -18,7 +18,10 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 
 </head>
-    <!-- header section starts -->
+    
+<body>
+    
+    <!--Starts header section -->
    <section class="header">
     <img src="./IMAGES/logo.png.jpg" class="logo" alt="">
     <!-- <a href="accueil.php" class="logo"> <img src="images/logo.png" alt=""> LOGO</a> -->
@@ -29,12 +32,12 @@
     <a href="offres.php">OFFRES</a>
     <a href="projet.php">PROJETS</a>
     <a href="contact.php">CONTACT</a>
-    <a href="login.php">LOGIN</a> 
+    <a href="login.php">INSCRIPTION</a> 
     </nav>
     <div id="menu-btn" class="fas fa-bars"></div>
    </section>
-   <!-- header section ends -->
-   <body>
+   <!-- Ends header section -->
+
 
    <!-- accueil section -->
    
@@ -44,55 +47,128 @@
     <div class="titre1">
         
         <div class="titre0">
-        <h1>BIENVENUE A L'ASSOCIATION DES JEUNES POUR LE DEVELOPPEMENT LOCAL</h1>
-    </div>
-        </div>
-    
-        <!-- fin de la section deux -->
-
-        <!-- sous-section deux -->
-        <div class="titre">
-         <div class="titre2">
-            <H3>TITRE</H3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                Facere voluptatibus, exercitationem aliquid porro earum quos dignissimos! 
-                Dolore ipsa obcaecati eius, 
-                cupiditate vel at omnis aperiam cum necessitatibus quae velit architecto.
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                Culpa asperiores debitis minima distinctio, necessitatibus 
-                nisi impedit aperiam et assumenda molestias rem dignissimos 
-                voluptatum iure nostrum sequi illo in quos? Libero.</p> <br>
-            <button>ACTIVITES</button>
-        </div> 
-
-        <div class="titre2">
-             <img src="./IMAGES/image3.jpg" alt="">
+            <h1>BIENVENUE A L'ASSOCIATION DES JEUNES POUR LE DEVELOPPEMENT LOCAL</h1>
         </div>
     </div>
-    <!-- fin de section deux -->
+    <!-- end sous section une -->
+
+    <!-- start section deux -->
+    <section class="bloc2">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col propos">
+                    <img src="./IMAGES/image1.jpg.jpg" alt="">
+                </div>
+
+                <div class="col order-5">
+                    <h2>A propos de nous</h2>
+                    <p>
+                       Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                       Fugit odio perspiciatis fugiat totam. Atque recusandae 
+                       reiciendis delectus eveniet consequatur natus,
+                      quod blanditiis at accusamus dolores impedit
+                       quisquam optio doloribus? Quas.
+                       Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                       Fugit odio perspiciatis fugiat totam. Atque recusandae 
+                       reiciendis delectus eveniet consequatur natus,
+                      quod blanditiis at accusamus dolores impedit
+                       quisquam optio doloribus? 
+                       QuasLorem ipsum dolor sit amet consectetur adipisicing elit. 
+                       Fugit odio perspiciatis fugiat totam. Atque recusandae 
+                       reiciendis delectus eveniet consequatur natus,
+                      quod blanditiis at accusamus dolores impedit
+                       quisquam optio doloribus? Quas..
 
 
-    <!-- <div class="content">
-        <div class="box3 boxa">
-            <a href="ajdl.php">AJDL</a>
+                    </p>
+                </div>
+            </div>
         </div>
-        <div class="box3 boxb">
-            <a href="activité.php">NOS ACTIVITES</a>
+    </section>
+    <!-- Ends section deux -->
+
+
+    <!-- start section trois -->
+
+    <section class="bloc2">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <h2>Nos Objectifs</h2>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                        Natus inventore cupiditate enim possimus eaque incidunt. Iste nostrum nobis sapiente? 
+                        Harum sapiente aut blanditiis molestiae ex perferendis omnis qui voluptate dolorem.
+                    </p>
+                </div>
+
+                <div class="col order-5">
+                    <h2>Nos missions</h2>
+                    <p>
+                       Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                       Fugit odio perspiciatis fugiat totam. Atque recusandae reiciendis delectus eveniet consequatur natus,
+                      quod blanditiis at accusamus dolores impedit quisquam optio doloribus? Quas.
+                    </p>
+                </div>
+
+
+                <div class="col order-1">
+                    <h2>Nos Nos buts</h2>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                        Quia blanditiis quasi dolor aperiam porro perspiciatis dicta voluptates tempora debitis officiis, 
+                        deleniti inventore labore reprehenderit, quo maxime eius vel! Vitae, 
+                    </p>
+
+                </div>
+            </div>
         </div>
-        <div class="box3 boxc">
-            <a href="offres.php">NOS OFFRES</a>
-        </div>
-        <div class="box3 boxd">
-            <a href="projet.php">NOS PROJETS</a>
-        </div>
-        <div class="box3 boxe">
-            <a href="contact.php">CONTACTEZ-NOUS</a>
-        </div> -->
+
+    </section>
+    <!-- Ends section trois -->
+
+    <!-- start section quatre -->
+
+    <section class="service" id="service">
+        <h1 class="heading">our <span>services</span></h1>
+        <div class="bos-container">
+            <div class="bos">
+                <img class="imge" src="./IMAGES/image5.jpg" alt="">
+                <div class="content">
+                    <img src="./IMAGES/image6.jpg" alt="">
+                    <h3>Activités</h3>
+                    <p>Lorem ipsum dolor sit, amet </p> <br>
+                    <button type="button" class="btn btn-dark">En savoir plus</button>
+
+                </div>
+            </div>
+            <div class="bos">
+                <img class="imge"imge src="./IMAGES/image5.jpg" alt="">
+                <div class="content">
+                    <img src="./IMAGES/image6.jpg" alt="">
+                    <h3>Offres</h3>
+                    <p>Lorem ipsum dolor sit, amet </p> <br>
+                    <button type="button" class="btn btn-dark">En savoir plus</button>
+
+                </div>
+            </div>
+            <div class="bos">
+                <img class="imge"src="./IMAGES/image5.jpg" alt="">
+                <div class="content">
+                    <img src="./IMAGES/image5.jpg" alt="">
+                    <h3>Projets</h3>
+                    <p>Lorem ipsum dolor sit, amet </p> <br>
+                    <button type="button" class="btn btn-dark">En savoir plus</button>
+
+                    
+                </div>
+            </div>
 
         </div>
 
-     </section>
-   
+    </section>
+
+
 
     <!-- footer section start -->
 
@@ -111,7 +187,7 @@
     </div>
     
     <div class="box">
-    <h3>Nous contacter</h3>
+    <h3>Contactez-nous</h3>
     <a href="accueil.php"> <i class="fas fa-phone"></i> 228 92 07 36 95</a>
     <a href="ajdl.php"> <i class="fas fa-phone"></i>  228 90 91 98 18</a>
     <a href="activite.php"> <i class="fas fa-envelope"></i>sylvieabalo48@gmail.com</a>

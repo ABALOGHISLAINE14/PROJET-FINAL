@@ -49,8 +49,8 @@ html::-webkit-scrollbar-thumb{
     display: flex;
     padding-top: 1rem;
     padding-bottom: 2rem;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 45px;
+    padding-right: 60px;
     box-shadow: var(--light-white);
     align-items: center;
     justify-content: space-between;
@@ -83,7 +83,7 @@ html::-webkit-scrollbar-thumb{
 }
 /* ends header */
 
-/* BODY SECTION ACCUEIL */
+/* .................PAGE D'ACCUEIL........................................... */ 
 /* starts sous-section une */
 .titre0{
     background-color:rgba(0, 0, 0, 0.445) ;
@@ -102,9 +102,7 @@ html::-webkit-scrollbar-thumb{
     background-image: url(./IMAGES/image8.webp);
     background-size: cover;
     object-fit: cover;
-    /* margin: auto;  */
     
-
 }
 
 .titre1 h1{
@@ -112,86 +110,156 @@ html::-webkit-scrollbar-thumb{
     color: white;
     padding: 200PX;
     font-size: 47px;
+    font-weight: 800;
 }
 /* ends sous-section une */
 
-/* start sous-section deux */
+/* start section deux */
+
+.propos img{
+    height: 80wh;
+    width: 50vh;
+}
+
+/* Ends section deux */
+
+/* starts section trois */
+
+.bloc2{
+    padding: 5%;
+}
+
+/* Starts section quatre */
+.heading{
+    text-align: center;
+    font-size: 3.5rem;
+    padding: 1rem;
+    color: red;
+}
+.header span{
+    color: #ff9;
+    padding: 1rem;
+}
+
+
+.service .bos-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.service .bos-container .bos{
+    flex: 1.1 5rem;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0.5rem 0.5rem rgb(193, 219, 151);
+    border: 0.5rem solid white;
+    cursor: pointer;
+    border-radius: 1.5rem;
+}
+.service .bos-container .bos .imge{
+    height: 10vh;
+    width: 30vh;
+    position: absolute;
+    top: 100%; left: 0;
+}
+.service .bos-container .bos .content{
+    text-align: center;
+    background: rgb(235, 240, 213);
+    padding: 2rem;
+}
+.service .bos-container .bos .content img{
+    margin: 1.5rem 0;
+    height: 35vh;
+    width: 40vh;
+}
+.service .bos-container .bos .content h3{
+    font-size: 2.5rem;
+    color: #222;
+}
+.service .bos-container .bos .content p{
+    font-size: 1.5rem;
+    color: rgb(121, 68, 68);
+    padding: 1rem;
+}
+.service .bos-container .bos:hover .content {
+    top: 0;
+}
+.service .bos-container .bos:hover .content {
+    transform: translateY(100deg);
+}
+
+
+
+
+
+
+/* ........................PAGE ACTIVITES........................... */
 
 .titre {
+    background-color: aqua;
+    height: 100vh;
+}
+h1{
     text-align: center;
-    font-size: 2rem;
+    font-size: 5rem;
+    padding: 25%;
+    text-shadow: -3px, 3px, 3px;
+    animation: titre0 ease 3.5s;
+}
+@keyframes titre0{
+    0%{
+        opacity: 0;
+        transform : translateY(350px)
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }  
     
-}
-.titre{
-    display: flex;
-    margin-top: 5%;
-    /* padding: 10%; */
-    justify-content: space-between;  
-}
-.titre2{
-    flex-basis: 48%;
-}
-.titre2 img{
-    height: 100%;
-    width: 100%;
-}
-/* ends section deux */
-/* .content{
-    display: flex;
-    justify-content: center;
-    
-}
-.box3{
-    flex-basis: 20%;
-    height: 150px;
-    width: 100px;
-    text-align: center;
-    padding: 80px;
-    font-size: 2rem;
 }
 
-.box3 a{
-    color: antiquewhite;
-}
-.boxa{
-    background-color: rgb(238, 238, 36);
-}
-.boxb{
-    background-color: green;
-}
-.boxc{
-    background-color: rgb(177, 31, 31);
-}
-.boxd{
-    background-color:rgb(32, 59, 32);
-}
-.boxe{
-    background-color: rgb(238, 238, 36);
-    
-} */
-
-/* page activités */
-.titre .un img{
-    height: 100%;
-    width: 100%;
-    padding: 10px; 
+.act{
+    padding: 3%;
     margin: auto;
-    margin-top: 5%;
-    border-radius: 25px;
     
 }
 
-.ligne1{
+.act h2{
+    font-size: 3rem;
+    color: #222;
+}
+.act img{
+    height: 30rem;
+    width: 40rem;
+}
 
-    text-align: center;
-    padding: 10%;
-    height: 70%;
-    width: 90%;
-    font-size: 30%;
+/* ......................fin de la page activités................................ */
 
-    margin: auto;
-    background-color: whitesmoke 
+/*............................. debut de la page projet....................... */
+
+.bloc-projet .projet img{
+    height: 30rem;
+    width: 40rem;
+}
+
+/* ..............fin de la page projet */
+
+/* ...............debut de la page galerie */
+
+.photo{
+    padding: 4%;
     
+}
+
+.photo h2{
+    text-align: center;
+    font-size: 4rem;
+    color: red;
+}
+.galerie img{
+    height: 25rem;
+    width: 35rem;
+    padding-bottom: 4.5%;
 }
 
 
@@ -199,7 +267,7 @@ html::-webkit-scrollbar-thumb{
 
 .footer{
     margin-top: 5%;
-    padding: 5%;
+    padding: 5%, 5%, 2%, 5%;
     background-color: rgb(25, 56, 25);
     color: white;
     background-size: cover;
@@ -214,8 +282,8 @@ html::-webkit-scrollbar-thumb{
 
 .footer .box-container .box h3{
     color: white;
-    font-size:  2.5rem;
-    padding-bottom: 2rem;
+    font-size:  1.5rem;
+    padding-bottom: 1rem;
 }
 .footer .box-container .box a{
     color: white;
@@ -227,14 +295,14 @@ html::-webkit-scrollbar-thumb{
 
 .footer .box-container .box a i{
     color: white;
-    padding-right: .5rem;
+    padding-right: .2rem;
     transition: .2s linear;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .footer .box-container .box a:hover i{
     color: #ff9;
-    padding-right: .5rem
+    padding-right: .3rem
 }
 
 .footer .box-container .box label{
@@ -247,9 +315,11 @@ html::-webkit-scrollbar-thumb{
     padding-top: 3rem;
     margin-top: 3rem;
     border-top: .1rem solid;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: white;
-    height: 5px;
+    /* height: 3px; */
+    
+    
 
 }
 .footer .box2 span{
@@ -296,12 +366,12 @@ html::-webkit-scrollbar-thumb{
         padding: 2rem;
         transition: .2s linear;
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-        /* clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%); */
+        
     } 
     
     .header .navbar .active{
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-        /* clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%); */
+        
     }
 
     .header .navbar a{
