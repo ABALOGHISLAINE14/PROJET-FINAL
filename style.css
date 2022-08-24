@@ -1,4 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,400&family=Poppins:ital,wght@0,200;0,400;0,600;0,800;0,900;1,100&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,400&family=Poppins:ital,wght@0,200;0,400;0,600;0,800;0,900;1,100&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,400&family=Poppins:ital,wght@0,500;0,800;0,900;1,400;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,500;1,400;1,700;1,900&display=swap');
+
 
 :root{
 --main-color: #8e8e8e;
@@ -14,7 +18,7 @@ box-shadow: 0;
     border: 3px solid;
 }
 
-/* starts header */
+/* ........................starts header......................... */
 *{
 font-family: 'Open Sans', sans-serif;
 margin: 0; padding: 0;
@@ -48,7 +52,7 @@ html::-webkit-scrollbar-thumb{
     background-color: rgb(43, 77, 43);
     display: flex;
     padding-top: 1rem;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
     padding-left: 45px;
     padding-right: 60px;
     box-shadow: var(--light-white);
@@ -81,10 +85,12 @@ html::-webkit-scrollbar-thumb{
     color: #222;
     display: none;
 }
-/* ends header */
+/* ............................ends header........................*/
 
-/* .................PAGE D'ACCUEIL........................................... */ 
-/* starts sous-section une */
+/* .................PAGE D'ACCUEIL............................... */ 
+
+
+/* .starts sous-section une.. */
 .titre0{
     background-color:rgba(0, 0, 0, 0.445) ;
     z-index: 30;
@@ -109,16 +115,30 @@ html::-webkit-scrollbar-thumb{
     text-align: center;
     color: white;
     padding: 200PX;
-    font-size: 47px;
-    font-weight: 800;
+    font-size: 55px;
+    font-weight: 1000;
 }
 /* ends sous-section une */
 
 /* start section deux */
 
+.bloc2 .ass{
+    padding: 5%;
+    
+}
+
 .propos img{
-    height: 80wh;
-    width: 50vh;
+    height: 60vh;
+    width: 90vh;
+}
+.propos h2{
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(28, 73, 28);
+}
+.propos p{
+    font-size: 15px;
+    text-align: justify;
 }
 
 /* Ends section deux */
@@ -126,15 +146,36 @@ html::-webkit-scrollbar-thumb{
 /* starts section trois */
 
 .bloc2{
-    padding: 5%;
+    padding: 2%;
+    padding-bottom: 3%;
 }
+ .bloc2.texte{
+    padding-bottom: 5%;
+}
+.texte h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.texte p{
+    font-size: 17px;
+    text-align: justify;
+    
+    
+}
+
+*{
+    /* border: solid; */
+}
+
+
 
 /* Starts section quatre */
 .heading{
     text-align: center;
     font-size: 3.5rem;
     padding: 1rem;
-    color: red;
+    color: rgb(15, 14, 14);
 }
 .header span{
     color: #ff9;
@@ -151,16 +192,15 @@ html::-webkit-scrollbar-thumb{
     flex: 1.1 5rem;
     position: relative;
     overflow: hidden;
-    box-shadow: 0.5rem 0.5rem rgb(193, 219, 151);
-    border: 0.5rem solid white;
+    box-shadow: 5px 17px 12px rgba(0, 0, 0, 0.16);
     cursor: pointer;
     border-radius: 1.5rem;
 }
 .service .bos-container .bos .imge{
     height: 10vh;
     width: 30vh;
-    position: absolute;
-    top: 100%; left: 0;
+    position: absolute; 
+     top: 100%; left: 0;
 }
 .service .bos-container .bos .content{
     text-align: center;
@@ -188,10 +228,7 @@ html::-webkit-scrollbar-thumb{
     transform: translateY(100deg);
 }
 
-
-
-
-
+/* page accueil */
 
 /* ........................PAGE ACTIVITES........................... */
 
@@ -202,7 +239,7 @@ html::-webkit-scrollbar-thumb{
 h1{
     text-align: center;
     font-size: 5rem;
-    padding: 25%;
+    /* padding: 25%; */
     text-shadow: -3px, 3px, 3px;
     animation: titre0 ease 3.5s;
 }
@@ -219,7 +256,8 @@ h1{
 }
 
 .act{
-    padding: 3%;
+    padding: 2%;
+    padding-top: 5%;
     margin: auto;
     
 }
@@ -228,9 +266,14 @@ h1{
     font-size: 3rem;
     color: #222;
 }
+.act p{
+    
+    font-size: 15px;
+    text-align: justify;
+}
 .act img{
     height: 30rem;
-    width: 40rem;
+    width: 50rem;
 }
 
 /* ......................fin de la page activités................................ */
@@ -242,9 +285,9 @@ h1{
     width: 40rem;
 }
 
-/* ..............fin de la page projet */
+/* ..............fin de la page projet ...............................................*/
 
-/* ...............debut de la page galerie */
+/* ...............debut de la page galerie ......................................*/
 
 .photo{
     padding: 4%;
@@ -261,9 +304,125 @@ h1{
     width: 35rem;
     padding-bottom: 4.5%;
 }
+/* .........End page galerie................................................. */
+
+/* .............. pages offres .....................................*/
+.services .bo-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+    gap: 1.5rem;
+    
+}
+
+.services .bo-container .bos-services{
+    padding: 1rem 1rem;
+    text-align: center;
+    background-color: rgb(236, 235, 135);
+}
+
+.services .bo-container .bos-services:hover{
+    background-color: #f7f7f7;
+}
+
+.services .bo-container .bos-services img{
+    height: 10rem;
+
+}
 
 
-/* starts footer */
+/* ...................fin de page offres......................................... */
+
+
+/* ...................Start page login......................... */
+.login-form {
+    width: 340px;
+    margin: 50px auto;
+}
+.login-form form {
+    margin-bottom: 15px;
+    background: #f7f7f7;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+.login-form h2 {
+    margin: 0 0 15px;
+}
+.form-control, .btn {
+    min-height: 38px;
+    border-radius: 2px;
+}
+.btn {        
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* .....................................page inscription ................................*/ 
+.login-form {
+                width: 340px;
+                margin: 50px auto;
+            }
+            .login-form form {
+                margin-bottom: 15px;
+                background: #f7f7f7;
+                box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+                padding: 30px;
+            }
+            .login-form h2 {
+                margin: 0 0 15px;
+            }
+            .form-control, .btn {
+                min-height: 38px;
+                border-radius: 2px;
+            }
+            .btn {        
+                font-size: 15px;
+                font-weight: bold;
+            }
+
+/* ....................................page contact...................................... */
+
+.contact .contact-form{
+    padding: 2rem;
+    background-color: rgb(146, 158, 158);
+}
+.contact .contact-form .flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.contact .contact-form .flex .inputbox{
+    flex: 1 1 41rem;
+
+}
+.contact .contact-form .flex .inputbox input{
+    width: 100%;
+    padding: 1.2rem 1.4rem;
+    font-size: 1.6rem;
+    color: black;
+    text-transform: none;
+    margin-top: 1.5rem;
+    border: #222;
+}
+.contact .contact-form .flex .inputbox input:focus{
+    background-color: rgb(14, 6, 6);
+    color: #f7f7f7;
+}
+
+.contact .contact-form .flex .inputbox input:focus::placeholder{
+
+    color: #f7f7f7;
+}
+.contact .contact-form .flex .inputbox span{
+    font-size: 1.5rem;
+    color: yellow;
+}
+.contact .contact-form .btn{
+    margin-top: 2rem;
+}
+
+
+/* .....................starts page footer ................................*/
 
 .footer{
     margin-top: 5%;
@@ -278,12 +437,14 @@ h1{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem,1fr));
     gap: 3rem;
+    
 }
 
 .footer .box-container .box h3{
     color: white;
-    font-size:  1.5rem;
-    padding-bottom: 1rem;
+    font-size:  2rem;
+    padding-bottom: 2rem;
+    padding-top: 5%;
 }
 .footer .box-container .box a{
     color: white;
@@ -295,14 +456,20 @@ h1{
 
 .footer .box-container .box a i{
     color: white;
-    padding-right: .2rem;
+    /* padding-right: .2rem; */
     transition: .2s linear;
     font-size: 1.5rem;
 }
 
+
+.footer .menu i{
+    font-size: 0.5rem;
+   
+}
+
 .footer .box-container .box a:hover i{
-    color: #ff9;
-    padding-right: .3rem
+    color: rgb(202, 30, 30);
+    /* padding-right: .3rem */
 }
 
 .footer .box-container .box label{
@@ -312,30 +479,26 @@ h1{
 
 .footer .box2{
     text-align: center;
-    padding-top: 3rem;
-    margin-top: 3rem;
+    /* padding-top: 3rem; */
+    /* margin-top: 3rem; */
     border-top: .1rem solid;
     font-size: 1.5rem;
     color: white;
     /* height: 3px; */
-    
-    
 
 }
 .footer .box2 span{
     color: #ff9;
 }
 
-/* ends footer */
+/* .................................ends footer............................ */
 
 
 
-/* responsivité */
-
-/* media queries */
+/* ................................media queries .............................*/
 @media(max-width:1200px){
     section{
-        padding: 3rem 5%;
+        padding: 3rem ;
     }
 }
 

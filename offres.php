@@ -32,7 +32,7 @@
     <a href="offres.php">OFFRES</a>
     <a href="projet.php">PROJETS</a>
     <a href="contact.php">CONTACT</a>
-    <a href="login.php">LOGIN</a> 
+    <a href="index.php">LOGIN</a> 
     </nav>
     <div id="menu-btn" class="fas fa-bars"></div>
    </section>
@@ -46,141 +46,79 @@
         </div>
       </div>
     </section>
+    <!-- ends de la section une --> 
     
+    <section class="services">
+        <h1 class="heading-title">Nos services</h1>
+        <div class="bo-container">
+            <div class="bos-services">
+                <img src="./IMAGES/images14.jpg.png" alt="">
+                <h3>adventures</h3> <br>
+                <button type="button" class="btn btn-dark">Reserver</button>
 
-    <div class="container">
-        <div class="row">
-        
-          <div class="col-lg-4 act">
-            <h1>TITRE 1</h1>
+            </div>
 
-          </div>
-          <div class="col-lg-4 act">
-        
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-              Fuga molestias cupiditate eum dolores voluptas, 
-              voluptates quasi explicabo. 
-              Molestias nostrum obcaecati deleniti excepturi! 
-              Quibusdam maiores voluptates nisi corporis modi dignissimos
-               inventore dicta obcaecati ad itaque veniam doloremque in, 
-              aliquam labore ipsum corrupti expedita a ratione nemo?Lorem ipsum dolor sit amet, 
-              consectetur adipisicing elit. 
-            </p> <br>
-            <button type="button" class="btn btn-warning">Reserver</button>
-          </div>
+            <div class="bos-services">
+                <img src="./IMAGES/images14.jpg.png" alt="">
+                <h3>tour guide</h3> <br>
+                <button type="button" class="btn btn-dark">Reserver</button>
+
+            </div>
+            
+            <div class="bos-services">
+                <img src="./IMAGES/images14.jpg.png" alt="">
+                <h3>treking</h3>
+                <br><button type="button" class="btn btn-dark">Reserver</button>
+                
+            </div> 
+            
+            <div class="bos-services">
+                <img src="./IMAGES/images14.jpg.png" alt="">
+                <h3>adventures</h3> <br>
+                <button type="button" class="btn btn-dark">Reserver</button>
+
+            </div>
+
         </div>
+    </section><section class="services">
+        <h1 class="heading-title">Nos services</h1>
+        <div class="bo-container">
+            <div class="bos-services">
+                <img src="./IMAGES/images14.jpg.png" alt="">
+                <h3>adventures</h3> <br>
+                <button type="button" class="btn btn-dark">Reserver</button>
 
-        <div class="container">
-        <div class="row">
-        
-          <div class="col-lg-4 act">
-            <h1>TITRE 2</h1>
+            </div>
 
-          </div>
-          <div class="col-lg-4 act">
-        
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-              Fuga molestias cupiditate eum dolores voluptas, 
-              voluptates quasi explicabo. 
-              Molestias nostrum obcaecati deleniti excepturi! 
-              Quibusdam maiores voluptates nisi corporis modi dignissimos
-               inventore dicta obcaecati ad itaque veniam doloremque in, 
-              aliquam labore ipsum corrupti expedita a ratione nemo?Lorem ipsum dolor sit amet, 
-              consectetur adipisicing elit. 
-            </p> <br>
-            <button type="button" class="btn btn-warning">Reserver</button>
-          </div>
-        </div><div class="container">
-        <div class="row">
-        
-          <div class="col-lg-4 act">
-            <h1>TITRE 3</h1>
+            <div class="bos-services">
+                <img src="./IMAGES/images14.jpg.png" alt="">
+                <h3>tour guide</h3> <br>
+                <button type="button" class="btn btn-dark">Reserver</button>
 
-          </div>
-          <div class="col-lg-4 act">
-        
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-              Fuga molestias cupiditate eum dolores voluptas, 
-              voluptates quasi explicabo. 
-              Molestias nostrum obcaecati deleniti excepturi! 
-              Quibusdam maiores voluptates nisi corporis modi dignissimos
-               inventore dicta obcaecati ad itaque veniam doloremque in, 
-              aliquam labore ipsum corrupti expedita a ratione nemo?Lorem ipsum dolor sit amet, 
-              consectetur adipisicing elit. 
-            </p> <br>
-            <button type="button" class="btn btn-warning">Reserver</button>
-          </div>
+            </div>
+            
+            <div class="bos-services">
+                <img src="./IMAGES/images14.jpg.png" alt="">
+                <h3>treking</h3>
+                <br><button type="button" class="btn btn-dark">Reserver</button>
+                
+            </div> 
+            
+            <div class="bos-services">
+                <img src="./IMAGES/images14.jpg.png" alt="">
+                <h3>adventures</h3> <br>
+                <button type="button" class="btn btn-dark">Reserver</button>
+
+            </div>
+
         </div>
-
-
-
-
-
-
-    
-
-
+    </section>
 
 
     <!-- footer section start -->
 
-    <section class="footer">
-
-    <div class="box-container">
-    <div class="box">
-    <h3>Navigation</h3>
-    <a href="accueil.php"> <i class="fas fa-angle-right"></i> Accueil</a>
-    <a href="ajdl.php"> <i class="fas fa-angle-right"></i>  Adjl</a>
-    <a href="activite.php"> <i class="fas fa-angle-right"></i>  ACTIVITES</a>
-    <a href="offres.php"> <i class="fas fa-angle-right"></i> Offres</a>
-    <a href="projet.php">  <i class="fas fa-angle-right"></i> Projets</a>
-    <a href="contact.php"> <i class="fas fa-angle-right"></i> Contact</a>
-    <a href="login.php">  <i class="fas fa-angle-right"></i> Login</a> 
-    </div>
+    <?php include('footer.php') ?>
     
-    <div class="box">
-    <h3>Nous contacter</h3>
-    <a href="accueil.php"> <i class="fas fa-phone"></i> 228 92 07 36 95</a>
-    <a href="ajdl.php"> <i class="fas fa-phone"></i>  228 90 91 98 18</a>
-    <a href="activite.php"> <i class="fas fa-envelope"></i>sylvieabalo48@gmail.com</a>
-    <a href="projet.php">  <i class="fas fa-map"></i> TOGO-LOME</a>
-     
-    </div>
-
-    <div class="box">
-    <h3>Follow us</h3>
-    <a href="accueil.php"> <i class="fab fa-facebook"></i> Facebook</a>
-    <a href="ajdl.php"> <i class="fab fa-twitter"></i>Twitter</a>
-    <a href="activite.php"> <i class="fab fa-instagram"></i>instagram</a>
-    <a href="offres.php"> <i class="fab fa-linkedin"></i> Linkedin</a>
-    </div>
-
-    <div class="box">
-        <h3>Notre Newsletter</h3>
-        <label for="">Revevez les dernières nouvelles de <br>
-        l'AJDL directement dans votre boîte mail
-    </label> <br>
-    <br>
-
-    <div class="input-group flex-nowrap">
-    <span class="input-group-text" id="addon-wrapping"> @</span>
-     <input type="text" class="form-control" 
-     placeholder="Entrer votre mail" aria-label="Username" aria-describedby="addon-wrapping"> <br>
-     <br>
-     <button type="button" class="btn btn-dark">subcsribe</button>
-
-    </div>
-     <br>
-    </div>
-    </div>
-
-    <div class="box2">created by <span>web designer</span> all rights reserved</div>
-
-    </section>
-
     <!-- footer section ends -->
 
     <!-- JavaScript Bundle with Popper -->

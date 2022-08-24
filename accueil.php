@@ -17,6 +17,9 @@
     <!-- boostrap --><!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 
+<!-- <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,400&display=swap" rel="stylesheet">  -->
+
+
 </head>
     
 <body>
@@ -32,7 +35,8 @@
     <a href="offres.php">OFFRES</a>
     <a href="projet.php">PROJETS</a>
     <a href="contact.php">CONTACT</a>
-    <a href="login.php">INSCRIPTION</a> 
+    <a href="index.php">LOGIN</a> 
+    
     </nav>
     <div id="menu-btn" class="fas fa-bars"></div>
    </section>
@@ -54,13 +58,13 @@
 
     <!-- start section deux -->
     <section class="bloc2">
-        <div class="container-fluid">
-            <div class="row">
+        <div class="container-fluid ">
+            <div class="row ass">
                 <div class="col propos">
                     <img src="./IMAGES/image1.jpg.jpg" alt="">
                 </div>
 
-                <div class="col order-5">
+                <div class="col order-5 propos">
                     <h2>A propos de nous</h2>
                     <p>
                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -69,16 +73,11 @@
                       quod blanditiis at accusamus dolores impedit
                        quisquam optio doloribus? Quas.
                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                       Fugit odio perspiciatis fugiat totam. Atque recusandae 
-                       reiciendis delectus eveniet consequatur natus,
-                      quod blanditiis at accusamus dolores impedit
-                       quisquam optio doloribus? 
-                       QuasLorem ipsum dolor sit amet consectetur adipisicing elit. 
-                       Fugit odio perspiciatis fugiat totam. Atque recusandae 
-                       reiciendis delectus eveniet consequatur natus,
-                      quod blanditiis at accusamus dolores impedit
-                       quisquam optio doloribus? Quas..
-
+                       Fugit odio perspiciatis fugiat totam. 
+                       quod blanditiis at accusamus dolores impedit
+                       quisquam optio doloribus? Quas.
+                       Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                       Fugit odio perspiciatis fugiat totam. 
 
                     </p>
                 </div>
@@ -92,35 +91,25 @@
 
     <section class="bloc2">
         <div class="container-fluid">
-            <div class="row">
-                <div class="col">
+            <div class="row test">
+                <div class="col texte">
                     <h2>Nos Objectifs</h2>
                     <p>
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                        Natus inventore cupiditate enim possimus eaque incidunt. Iste nostrum nobis sapiente? 
+                        Natus inventore cupiditate enim possimus eaque incidunt. 
                         Harum sapiente aut blanditiis molestiae ex perferendis omnis qui voluptate dolorem.
                     </p>
                 </div>
 
-                <div class="col order-5">
+                <div class="col order-5 texte">
                     <h2>Nos missions</h2>
                     <p>
                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                       Fugit odio perspiciatis fugiat totam. Atque recusandae reiciendis delectus eveniet consequatur natus,
+                       Fugit odio perspiciatis fugiat totam. Atque recusandae reicie
                       quod blanditiis at accusamus dolores impedit quisquam optio doloribus? Quas.
                     </p>
                 </div>
 
-
-                <div class="col order-1">
-                    <h2>Nos Nos buts</h2>
-                    <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                        Quia blanditiis quasi dolor aperiam porro perspiciatis dicta voluptates tempora debitis officiis, 
-                        deleniti inventore labore reprehenderit, quo maxime eius vel! Vitae, 
-                    </p>
-
-                </div>
             </div>
         </div>
 
@@ -129,11 +118,11 @@
 
     <!-- start section quatre -->
 
-    <section class="service" id="service">
-        <h1 class="heading">our <span>services</span></h1>
+      <section class="service" id="service">
+        <h1 class="heading">.. <span>....</span></h1>
         <div class="bos-container">
             <div class="bos">
-                <img class="imge" src="./IMAGES/image5.jpg" alt="">
+                <img class="imge" src="" alt="">
                 <div class="content">
                     <img src="./IMAGES/image6.jpg" alt="">
                     <h3>Activités</h3>
@@ -143,89 +132,42 @@
                 </div>
             </div>
             <div class="bos">
-                <img class="imge"imge src="./IMAGES/image5.jpg" alt="">
+                <img class="imge"imge src="" alt="">
                 <div class="content">
                     <img src="./IMAGES/image6.jpg" alt="">
                     <h3>Offres</h3>
                     <p>Lorem ipsum dolor sit, amet </p> <br>
                     <button type="button" class="btn btn-dark">En savoir plus</button>
 
-                </div>
+                </div> 
             </div>
             <div class="bos">
-                <img class="imge"src="./IMAGES/image5.jpg" alt="">
+                <img class="imge"src="" alt="">
                 <div class="content">
                     <img src="./IMAGES/image5.jpg" alt="">
                     <h3>Projets</h3>
                     <p>Lorem ipsum dolor sit, amet </p> <br>
                     <button type="button" class="btn btn-dark">En savoir plus</button>
-
-                    
                 </div>
             </div>
+            
+            <div class="bos">
+                <img class="imge"src="" alt="">
+                <div class="content">
+                    <img src="./IMAGES/image5.jpg" alt="">
+                    <h3>Inscrivez-vous</h3>
+                    <p>Lorem ipsum dolor sit, amet </p> <br>
+                    <button type="button" class="btn btn-dark">En savoir plus</button>
 
+                </div>
+            </div> 
         </div>
 
-    </section>
-
-
+    </section> 
 
     <!-- footer section start -->
 
-    <section class="footer">
-
-    <div class="box-container">
-    <div class="box">
-    <h3>Navigation</h3>
-    <a href="accueil.php"> <i class="fas fa-angle-right"></i> Accueil</a>
-    <a href="ajdl.php"> <i class="fas fa-angle-right"></i>  Adjl</a>
-    <a href="activite.php"> <i class="fas fa-angle-right"></i>  ACTIVITES</a>
-    <a href="offres.php"> <i class="fas fa-angle-right"></i> Offres</a>
-    <a href="projet.php">  <i class="fas fa-angle-right"></i> Projets</a>
-    <a href="contact.php"> <i class="fas fa-angle-right"></i> Contact</a>
-    <a href="login.php">  <i class="fas fa-angle-right"></i> Login</a> 
-    </div>
-    
-    <div class="box">
-    <h3>Contactez-nous</h3>
-    <a href="accueil.php"> <i class="fas fa-phone"></i> 228 92 07 36 95</a>
-    <a href="ajdl.php"> <i class="fas fa-phone"></i>  228 90 91 98 18</a>
-    <a href="activite.php"> <i class="fas fa-envelope"></i>sylvieabalo48@gmail.com</a>
-    <a href="projet.php">  <i class="fas fa-map"></i> TOGO-LOME</a>
-     
-    </div>
-
-    <div class="box">
-    <h3>Follow us</h3>
-    <a href="accueil.php"> <i class="fab fa-facebook"></i> Facebook</a>
-    <a href="ajdl.php"> <i class="fab fa-twitter"></i>Twitter</a>
-    <a href="activite.php"> <i class="fab fa-instagram"></i>instagram</a>
-    <a href="offres.php"> <i class="fab fa-linkedin"></i> Linkedin</a>
-    </div>
-
-    <div class="box">
-        <h3>Notre Newsletter</h3>
-        <label for="">Revevez les dernières nouvelles de <br>
-        l'AJDL directement dans votre boîte mail
-    </label> <br>
-    <br>
-
-    <div class="input-group flex-nowrap">
-    <span class="input-group-text" id="addon-wrapping"> @</span>
-     <input type="text" class="form-control" 
-     placeholder="Entrer votre mail" aria-label="Username" aria-describedby="addon-wrapping"> <br>
-     <br>
-     <button type="button" class="btn btn-dark">subcsribe</button>
-
-    </div>
-     <br>
-    </div>
-    </div>
-
-    <div class="box2">created by <span>web designer</span> all rights reserved</div>
-
-    </section>
-
+    <?php include('footer.php') ?>
     <!-- footer section ends -->
 
     <!-- JavaScript Bundle with Popper -->
