@@ -264,7 +264,7 @@ h1{
 
 .act h2{
     font-size: 3rem;
-    color: #222;
+    color: rgb(12, 41, 14);
 }
 .act p{
     
@@ -297,7 +297,7 @@ h1{
 .photo h2{
     text-align: center;
     font-size: 4rem;
-    color: red;
+    color: rgb(25, 44, 28);
 }
 .galerie img{
     height: 25rem;

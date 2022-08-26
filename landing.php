@@ -48,7 +48,7 @@
                         <hr />
                         <a href="deconnexion.php" class="btn btn-danger btn-lg">Déconnexion</a>
                         <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#change_password">
+                        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#change_password">
                           Changer mon mot de passe
                         </button>
                         <div class="btn btn-warning">

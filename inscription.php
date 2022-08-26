@@ -105,7 +105,7 @@
                     <input type="password" name="password_retype" class="form-control" placeholder="Re-tapez le mot de passe" required="required" autocomplete="off">
                 </div>
                 <div class="form-group">
-                    <button type="submit" class="btn btn-primary btn-block">Adhérer</button>
+                    <button type="submit" class="btn btn-success btn-block">Adhérer</button>
                 </div>   
             </form>
         </div>
