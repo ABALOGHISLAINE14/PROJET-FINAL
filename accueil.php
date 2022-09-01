@@ -58,7 +58,7 @@
     <!-- end sous section une -->
 
     <!-- start section deux -->
-    <section class="bloc2">
+    <section class="bloc2 container-fluid">
         <div class="container-fluid ">
             <div class="row ass">
                 <div class="col propos">
@@ -86,40 +86,217 @@
         </div>
     </section>
     <!-- Ends section deux -->
+    <!-- eeeeeeeeeeeeeeeeeeeeeeeeeeee -->
 
-
-    <!-- start section trois -->
-
-    <section class="bloc2">
-        <div class="container-fluid">
-            <div class="row test">
-                <div class="col texte">
-                    <h2>Nos Objectifs</h2>
-                    <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                        Natus inventore cupiditate enim possimus eaque incidunt. 
-                        Harum sapiente aut blanditiis molestiae ex perferendis omnis qui voluptate dolorem.
-                    </p>
+    <section class="But" >
+        <div class="row">
+            <div class="imgg">
+                <img src="./IMAGES/image1.jpg.jpg" alt="">
+            </div>
+            <div class="bose-container">
+                <div class="bose">
+                    <h3><i class="fas fa-user">ADJL</i></h3>
+                    <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Id esse fugit aliquam doloribus inventore exercitationem? 
+                        Dolor quos adipisci neque sapiente dolore accusantium 
+                        voluptatibus fugiat! Fuga at repudiandae iure libero repellat.</P>
                 </div>
-
-                <div class="col order-5 texte">
-                    <h2>Nos missions</h2>
-                    <p>
-                       Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                       Fugit odio perspiciatis fugiat totam. Atque recusandae reicie
-                      quod blanditiis at accusamus dolores impedit quisquam optio doloribus? Quas.
-                    </p>
+                <div class="bose">
+                    <h3><i class="fas fa-user">ADJL</i></h3>
+                    <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Id esse fugit aliquam doloribus inventore exercitationem? 
+                        Dolor quos adipisci neque sapiente dolore accusantium 
+                        voluptatibus fugiat! Fuga at repudiandae iure libero repellat.</P>
+                </div>
+                <div class="bose">
+                    <h3><i class="fas fa-user">ADJL</i></h3>
+                    <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Id esse fugit aliquam doloribus inventore exercitationem? 
+                        Dolor quos adipisci neque sapiente dolore accusantium 
+                        voluptatibus fugiat! Fuga at repudiandae iure libero repellat.</P>
+                </div>
+                <div class="bose">
+                    <h3><i class="fas fa-user">ADJL</i></h3>
+                    <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Id esse fugit aliquam doloribus inventore exercitationem? 
+                        Dolor quos adipisci neque sapiente dolore accusantium 
+                        voluptatibus fugiat! Fuga at repudiandae iure libero repellat.</P>
                 </div>
 
             </div>
         </div>
 
     </section>
+
+
+
+
+
+
+
+
+
+    <!-- ............. -->
+
+    <section class="missions">
+        <div class="boxx-container">
+            <div class="boxx">
+                <i class="fas fa-bell"></i>
+                <h3>NOS OBJECTIFS</h3>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                     Libero, quis deserunt 
+                    accusantium cupiditate dignissimos dolorem 
+                    corporis sapiente magni animi ut!
+                </p>
+            </div>
+            
+            <div class="boxx">
+                <i class="fas fa-bell"></i>
+                <h3>NOTRE MISSIONS</h3>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                     Libero, quis deserunt 
+                    accusantium cupiditate dignissimos dolorem 
+                    corporis sapiente magni animi ut!
+                </p>
+            </div>
+            <div class="boxx">
+                <i class="fas fa-bell"></i>
+                <h3>NOS BUTS</h3>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                     Libero, quis deserunt 
+                    accusantium cupiditate dignissimos dolorem 
+                    corporis sapiente magni animi ut!
+                </p>
+            </div>
+            <div class="boxx">
+                <i class="fas fa-bell"></i>
+                <h3>notification alerte</h3>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                     Libero, quis deserunt 
+                    accusantium cupiditate dignissimos dolorem 
+                    corporis sapiente magni animi ut!
+                </p>
+            </div>
+
+             </div>
+
+        </section>
+<!-- .................................. -->
+
+        <section class="Menu">
+            <div class="boxx-container">
+                <div class="boxx">
+                    <div class="imagess">
+                    <img src="./IMAGES/image4.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>NOS ACTIVITES</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. *
+                        Hic magnam quidem ad assumenda, odio ipsum quasi dolores, voluptates, 
+                        
+                        </p>
+
+                        <!-- <a href=""><button class="btn">reserver</button></a> -->
+                    </div>
+                </div>
+                
+                <div class="boxx">
+                    <div class="imagess">
+                    <img src="./IMAGES/image4.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>NOS OFFRES</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. *
+                        Hic magnam quidem ad assumenda, odio ipsum quasi dolores, voluptates, 
+                        </p> 
+                        <!-- <a href=""><button class="btn">reserver</button></a> -->
+                    </div>
+                </div>
+                <div class="boxx">
+                    <div class="imagess">
+                    <img src="./IMAGES/image6.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>NOS PROJETS</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. *
+                        Hic magnam quidem ad assumenda, odio ipsum quasi dolores, voluptates, 
+                        
+                        </p>
+
+                        <!-- <a href=""><button class="btn">reserver</button></a> -->
+                    </div>
+                </div>
+                <div class="boxx">
+                    <div class="imagess">
+                    <img src="./IMAGES/image6.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>GALERIES</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. *
+                        Hic magnam quidem ad assumenda, odio ipsum quasi dolores, voluptates, 
+                        
+                        </p>
+                        
+                        <!-- <a href=""><button class="btn">reserver</button></a> -->
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+<!-- .................... -->
+        
+    
+
+
+    <!-- start section trois -->
+
+    <!-- <section class="bloc2  container-fluid">
+        <div class="container-fluid object">
+            <div class="row test">
+                <div class="col texte object">
+                    <h2>Nos Objectifs</h2>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                        Natus inventore cupiditate enim possimus eaque incidunt. 
+                        
+                    </p>
+                </div>
+
+                <div class="col order-5 texte object">
+                    <h2>Notre mission</h2>
+                    <p>
+                       Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                       Fugit odio perspiciatis fugiat totam. Atque recusandae reicie.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+    </section> 
+     -->
+
     <!-- Ends section trois -->
+
+
+
+
+
+
+
+
+
+
+
 
     <!-- start section quatre -->
 
-      <section class="service" id="service">
+      <!-- <section class="service" id="service">
         <h1 class="heading">.. <span>....</span></h1>
         <div class="bos-container">
             <div class="bos">
@@ -164,7 +341,7 @@
             </div> 
         </div>
 
-    </section> 
+    </section>  -->
 
     <!-- footer section start -->
 

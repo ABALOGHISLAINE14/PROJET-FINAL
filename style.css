@@ -124,45 +124,178 @@ html::-webkit-scrollbar-thumb{
 
 .bloc2 .ass{
     padding: 5%;
+    /* padding-bottom: 3%; */
+    /* font-size: 20px; */
     
 }
 
 .propos img{
     height: 60vh;
-    width: 90vh;
+    width: 80vh;
 }
 .propos h2{
-    font-size: 30px;
+    padding-bottom: 2%;
+    font-size: 35px;
     font-weight: 600;
     color: rgb(28, 73, 28);
 }
 .propos p{
-    font-size: 15px;
+    font-size: 17px;
     text-align: justify;
 }
 
 /* Ends section deux */
+/* .................. */
+
+.But{
+    display: flex;
+    min-height: 100vh;
+    color: aqua;
+}
+*{
+    /* border: solid; */
+}
+/* .But .row{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap; 
+}
+
+.But .row .imgg{
+    text-align: center;
+    flex: 1 1 30rem;
+
+}
+.But .row .imgg img{
+    height: 10vh;
+    padding: 3rem 0;
+}
+.But .row .bose-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex: 1 1 30rem;
+}
+
+
+
+
+ */
 
 /* starts section trois */
 
-.bloc2{
-    padding: 2%;
-    padding-bottom: 3%;
-}
- .bloc2.texte{
-    padding-bottom: 5%;
-}
-.texte h2{
-    font-size: 30px;
-    font-weight: 600;
+.missions{
+    min-height: 100vh;
 }
 
-.texte p{
-    font-size: 17px;
-    text-align: justify;
-    
-    
+.missions .boxx-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
+
+.missions .boxx-container .boxx{
+    text-align: center;
+    margin: 1.5rem;
+    padding: 1rem;
+    border: 0.5rem solid green;
+    width: 27rem;
+}
+
+.missions .boxx-container .boxx:hover{
+    background-color: rgb(238, 238, 192);
+}
+
+.missions .boxx-container .boxx i{
+    height: 7rem;
+    width: 7rem;
+    line-height: 7rem;
+    text-align: center;
+    border-radius: 50%;
+    background-color: antiquewhite;
+    color: #333;
+    font-size: 3rem;
+    margin: 1rem 0;
+}
+
+.missions .boxx-container .boxx h3{
+    color: green;
+    font-size: 2.5rem;
+}
+
+.missions .boxx-container .boxx p{
+    color: var(--black);
+    font-size: 1.5rem;
+    padding: 1rem, 5rem;
+}
+
+/* Ends section trois */
+
+/* .................Starts section quatre..........*/
+
+.Menu{
+    min-height: 100vh;
+    /* background-color: #ff9; */
+
+}
+
+.Menu .boxx-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Menu .boxx-container .boxx{
+    margin: 1.5rem;
+    padding: 1rem;
+    width: 50rem;
+    background: rgb(24, 49, 24);
+    box-shadow: 0 0 1rem rgba(0, 0, 0, .5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+
+}
+
+
+.Menu .boxx-container .boxx .imagess{
+    padding: 1rem;
+}
+
+.Menu .boxx-container .boxx .imagess img{
+    padding: 0 3rem;
+    width: 20rem;
+    border-right: .1rem solid wheat;
+}
+
+.Menu .boxx-container .boxx .content{
+    padding: 1rem;
+}
+.Menu .boxx-container .boxx .content h3{
+    font-size: 1.5rem;
+    color: blanchedalmond;
+    padding: 1rem 0;
+}
+
+.Menu .boxx-container .boxx .content p{
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    color: white;
+}
+
+
+/* ...............end secction quatre */
+
+/* .................. */
+
+
+
+
 
 *{
     /* border: solid; */
@@ -170,7 +303,7 @@ html::-webkit-scrollbar-thumb{
 
 
 
-/* Starts section quatre */
+/* Starts section quatre
 .heading{
     text-align: center;
     font-size: 3.5rem;
@@ -226,7 +359,7 @@ html::-webkit-scrollbar-thumb{
 }
 .service .bos-container .bos:hover .content {
     transform: translateY(100deg);
-}
+} */
 
 /* page accueil */
 
@@ -383,12 +516,18 @@ h1{
 
 .contact .contact-form{
     padding: 2rem;
-    background-color: rgb(146, 158, 158);
+    background-color: rgb(112, 172, 125)
 }
 .contact .contact-form .flex{
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
+}
+ .contact h2{
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 2%;
+    font-weight: 800;
 }
 
 .contact .contact-form .flex .inputbox{
@@ -399,7 +538,7 @@ h1{
     width: 100%;
     padding: 1.2rem 1.4rem;
     font-size: 1.6rem;
-    color: black;
+    color: rgb(27, 25, 25);
     text-transform: none;
     margin-top: 1.5rem;
     border: #222;
@@ -434,6 +573,8 @@ h1{
 }
 
 .footer .box-container{
+    margin-left: 30px;
+    margin-right: 30px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem,1fr));
     gap: 3rem;

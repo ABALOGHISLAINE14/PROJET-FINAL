@@ -30,8 +30,8 @@
    </section>
         <body> 
             <!--Starts header section -->
-            <section class="contact">
-                <h1>RESERVATION</h1>
+            <section class=" container contact">
+                <h2 >RESERVATION</h2>
                 <form action="contact_form.php" method="post" class="contact-form">
                     <div class="flex">
                         <div class="inputbox">

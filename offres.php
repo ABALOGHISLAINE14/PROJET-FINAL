@@ -80,7 +80,9 @@
             </div>
 
         </div>
-    </section><section class="services">
+    </section>
+    
+    <section class="services">
         <h1 class="heading-title">Nos services</h1>
         <div class="bo-container">
             <div class="bos-services">
