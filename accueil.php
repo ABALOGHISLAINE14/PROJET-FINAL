@@ -85,107 +85,10 @@
             </div>
         </div>
     </section>
-    <!-- Ends section deux -->
-    <!-- eeeeeeeeeeeeeeeeeeeeeeeeeeee -->
+    <!-- Ends section deux........................................ -->
 
-    <section class="But" >
-        <div class="row">
-            <div class="imgg">
-                <img src="./IMAGES/image1.jpg.jpg" alt="">
-            </div>
-            <div class="bose-container">
-                <div class="bose">
-                    <h3><i class="fas fa-user">ADJL</i></h3>
-                    <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                        Id esse fugit aliquam doloribus inventore exercitationem? 
-                        Dolor quos adipisci neque sapiente dolore accusantium 
-                        voluptatibus fugiat! Fuga at repudiandae iure libero repellat.</P>
-                </div>
-                <div class="bose">
-                    <h3><i class="fas fa-user">ADJL</i></h3>
-                    <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                        Id esse fugit aliquam doloribus inventore exercitationem? 
-                        Dolor quos adipisci neque sapiente dolore accusantium 
-                        voluptatibus fugiat! Fuga at repudiandae iure libero repellat.</P>
-                </div>
-                <div class="bose">
-                    <h3><i class="fas fa-user">ADJL</i></h3>
-                    <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                        Id esse fugit aliquam doloribus inventore exercitationem? 
-                        Dolor quos adipisci neque sapiente dolore accusantium 
-                        voluptatibus fugiat! Fuga at repudiandae iure libero repellat.</P>
-                </div>
-                <div class="bose">
-                    <h3><i class="fas fa-user">ADJL</i></h3>
-                    <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                        Id esse fugit aliquam doloribus inventore exercitationem? 
-                        Dolor quos adipisci neque sapiente dolore accusantium 
-                        voluptatibus fugiat! Fuga at repudiandae iure libero repellat.</P>
-                </div>
-
-            </div>
-        </div>
-
-    </section>
-
-
-
-
-
-
-
-
-
-    <!-- ............. -->
-
-    <section class="missions">
-        <div class="boxx-container">
-            <div class="boxx">
-                <i class="fas fa-bell"></i>
-                <h3>NOS OBJECTIFS</h3>
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                     Libero, quis deserunt 
-                    accusantium cupiditate dignissimos dolorem 
-                    corporis sapiente magni animi ut!
-                </p>
-            </div>
-            
-            <div class="boxx">
-                <i class="fas fa-bell"></i>
-                <h3>NOTRE MISSIONS</h3>
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                     Libero, quis deserunt 
-                    accusantium cupiditate dignissimos dolorem 
-                    corporis sapiente magni animi ut!
-                </p>
-            </div>
-            <div class="boxx">
-                <i class="fas fa-bell"></i>
-                <h3>NOS BUTS</h3>
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                     Libero, quis deserunt 
-                    accusantium cupiditate dignissimos dolorem 
-                    corporis sapiente magni animi ut!
-                </p>
-            </div>
-            <div class="boxx">
-                <i class="fas fa-bell"></i>
-                <h3>notification alerte</h3>
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                     Libero, quis deserunt 
-                    accusantium cupiditate dignissimos dolorem 
-                    corporis sapiente magni animi ut!
-                </p>
-            </div>
-
-             </div>
-
-        </section>
-<!-- .................................. -->
+    
+<!-- Start section trois...................................... -->
 
         <section class="Menu">
             <div class="boxx-container">
@@ -194,7 +97,7 @@
                     <img src="./IMAGES/image4.jpg" alt="">
                     </div>
                     <div class="content">
-                        <h3>NOS ACTIVITES</h3>
+                        <h3>NOS OBJECTIFS</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. *
                         Hic magnam quidem ad assumenda, odio ipsum quasi dolores, voluptates, 
                         
@@ -209,7 +112,7 @@
                     <img src="./IMAGES/image4.jpg" alt="">
                     </div>
                     <div class="content">
-                        <h3>NOS OFFRES</h3>
+                        <h3>NOS BUTS</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. *
                         Hic magnam quidem ad assumenda, odio ipsum quasi dolores, voluptates, 
                         </p> 
@@ -221,7 +124,7 @@
                     <img src="./IMAGES/image6.jpg" alt="">
                     </div>
                     <div class="content">
-                        <h3>NOS PROJETS</h3>
+                        <h3>NOTRE MISSION</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. *
                         Hic magnam quidem ad assumenda, odio ipsum quasi dolores, voluptates, 
                         
@@ -235,7 +138,7 @@
                     <img src="./IMAGES/image6.jpg" alt="">
                     </div>
                     <div class="content">
-                        <h3>GALERIES</h3>
+                        <h3>NOS PERSPECTIVES</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. *
                         Hic magnam quidem ad assumenda, odio ipsum quasi dolores, voluptates, 
                         
@@ -248,47 +151,66 @@
             </div>
 
         </section>
-<!-- .................... -->
-        
-    
+        <!-- .....start section quatre -->
 
-
-    <!-- start section trois -->
-
-    <!-- <section class="bloc2  container-fluid">
-        <div class="container-fluid object">
-            <div class="row test">
-                <div class="col texte object">
-                    <h2>Nos Objectifs</h2>
-                    <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                        Natus inventore cupiditate enim possimus eaque incidunt. 
-                        
-                    </p>
-                </div>
-
-                <div class="col order-5 texte object">
-                    <h2>Notre mission</h2>
-                    <p>
-                       Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                       Fugit odio perspiciatis fugiat totam. Atque recusandae reicie.
-                    </p>
-                </div>
+            <section class="missions">
+                <h2>DECOUVREZ NOS ACTUALITES</h2>
+         <div class="boxx-container">
+            <div class="boxx">
+                <i class="fas fa-bell"></i>
+                <h3>NOS ACTIVITES</h3>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                     Libero, quis deserunt 
+                    accusantium cupiditate dignissimos dolorem 
+                    corporis sapiente magni animi ut!
+                </p>
+                    <button type="button" class="btn btn-dark">En savoir plus</button>
 
             </div>
-        </div>
+            
+            <div class="boxx">
+                <i class="fas fa-bell"></i>
+                <h3>NOS OFFRES</h3>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                     Libero, quis deserunt 
+                    accusantium cupiditate dignissimos dolorem 
+                    corporis sapiente magni animi ut!
+                </p>
+                    <button type="button" class="btn btn-dark">En savoir plus</button>
 
-    </section> 
-     -->
+            </div>
+            <div class="boxx">
+                <i class="fas fa-bell"></i>
+                <h3>NOS PROJETS</h3>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                     Libero, quis deserunt 
+                    accusantium cupiditate dignissimos dolorem 
+                    corporis sapiente magni animi ut!
+                </p>
+                    <button type="button" class="btn btn-dark">En savoir plus</button>
 
-    <!-- Ends section trois -->
+            </div>
+            <div class="boxx">
+                <i class="fas fa-bell"></i>
+                <h3>INSCRIVEZ-VOUS</h3>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                     Libero, quis deserunt 
+                    accusantium cupiditate dignissimos dolorem 
+                    corporis sapiente magni animi ut!
+                </p>
+                    <button type="button" class="btn btn-dark">En savoir plus</button>
 
+            </div>
 
+             </div>
 
+        </section>
 
-
-
-
+<!-- fin section quatre.................. -->
 
 
 

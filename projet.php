@@ -47,26 +47,56 @@
       </div>
     </section>
     
-    
-    <section class="bloc-projet">
-        <div class="container">
-            <div class="row projet">
-                <div class="col-lg-6 projet" >
-                  <img src="./IMAGES/image10.jpg" alt="">
+    <div class="projet"> 
+      <h2>SOUTENEZ NOS PROJETS</h2>
+      <p>Vous trouvez notre initiative légitime et souhaiterez nous encourager? <br>
+        Vous pouvez nous aider de nombreuses manières, soit en devenant adhérant et joignez vous à cette belle
+        aventure ou soit en nous faisant un dons
+
+      </p>
+    </div>
+    <section class=" container But" >
+      
+        <div class="row">
+            <div class="imgg">
+                <img src="./IMAGES/image1.jpg.jpg" alt="">
+            </div>
+            <div class="bose-container"> 
+                <div class="bose">
+                    <h3> <i class="fas fa-user"> Projet 1</i></h3>
+                    <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Id esse fugit aliquam doloribus inventore exercitati
+                        voluptatibus fugiat! Fuga at repudiandae iure libero re.</P>
                 </div>
-                <div class="col-lg-6 projet">
-                  <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                     Natus maxime aliquam fuga quidem architecto temporibus magnam ea consequuntur nihil rem fugiat voluptatum nostrum asperiores sequi porro molestiae excepturi itaque, repudiandae vitae unde doloremque!
-                     Non voluptatem esse quis expedita. Autem reprehenderit minima sapiente, reiciendis provident nostrum.
-                  </p>
+                <div class="bose">
+                    <h3><i class="fas fa-user">  projet 2</i></h3>
+                    <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Id esse fugit aliquam doloribus inventore exercitationem?
+                        voluptatibus fugiat! Fuga at repudiandae iure libero repellat.</P>
                 </div>
-                <div class="col-lg-6"></div>
+                <div class="bose">
+                    <h3><i class="fas fa-user">  projet 3</i></h3>
+                    <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Id esse fugit aliquam doloribus inventore exercitationem? 
+                        voluptatibus fugiat! Fuga at repudiandae iure libero repellat.</P>
+                </div>
+                <div class="bose">
+                    <h3><i class="fas fa-user">  Projet 4</i></h3>
+                    <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Id esse fugit aliquam doloribus inventore exercitationem
+                        voluptatibus fugiat! Fuga at repudiandae iure libero repellat.</P>
+                </div>
 
             </div>
-
         </div>
+
     </section>
+
+
+
+
+      
+    
 
 
     <!-- footer section start -->

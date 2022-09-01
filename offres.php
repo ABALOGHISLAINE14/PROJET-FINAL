@@ -48,74 +48,7 @@
     </section>
     <!-- ends de la section une --> 
     
-    <section class="services">
-        <h1 class="heading-title">Nos services</h1>
-        <div class="bo-container">
-            <div class="bos-services">
-                <img src="./IMAGES/images14.jpg.png" alt="">
-                <h3>adventures</h3> <br>
-                <button type="button" class="btn btn-dark">Reserver</button>
-
-            </div>
-
-            <div class="bos-services">
-                <img src="./IMAGES/images14.jpg.png" alt="">
-                <h3>tour guide</h3> <br>
-                <button type="button" class="btn btn-dark">Reserver</button>
-
-            </div>
-            
-            <div class="bos-services">
-                <img src="./IMAGES/images14.jpg.png" alt="">
-                <h3>treking</h3>
-                <br><button type="button" class="btn btn-dark">Reserver</button>
-                
-            </div> 
-            
-            <div class="bos-services">
-                <img src="./IMAGES/images14.jpg.png" alt="">
-                <h3>adventures</h3> <br>
-                <button type="button" class="btn btn-dark">Reserver</button>
-
-            </div>
-
-        </div>
-    </section>
     
-    <section class="services">
-        <h1 class="heading-title">Nos services</h1>
-        <div class="bo-container">
-            <div class="bos-services">
-                <img src="./IMAGES/images14.jpg.png" alt="">
-                <h3>adventures</h3> <br>
-                <button type="button" class="btn btn-dark">Reserver</button>
-
-            </div>
-
-            <div class="bos-services">
-                <img src="./IMAGES/images14.jpg.png" alt="">
-                <h3>tour guide</h3> <br>
-                <button type="button" class="btn btn-dark">Reserver</button>
-
-            </div>
-            
-            <div class="bos-services">
-                <img src="./IMAGES/images14.jpg.png" alt="">
-                <h3>treking</h3>
-                <br><button type="button" class="btn btn-dark">Reserver</button>
-                
-            </div> 
-            
-            <div class="bos-services">
-                <img src="./IMAGES/images14.jpg.png" alt="">
-                <h3>adventures</h3> <br>
-                <button type="button" class="btn btn-dark">Reserver</button>
-
-            </div>
-
-        </div>
-    </section>
-
 
     <!-- footer section start -->
 
