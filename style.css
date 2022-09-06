@@ -265,9 +265,29 @@ html::-webkit-scrollbar-thumb{
 
 
 /* ...............end secction quatre */
+/* .......start section cinq............... */
+.team .card-body{
+    font-size: 20px;
+}
+.team .card{
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, .15);
+}
+.team .card h3{
+    color: rgb(99, 99, 23);
 
-
-
+}
+.team .card p{
+    font-size: 15px;
+}
+.team h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(30, 54, 30);
+}
+.team p{
+    font-size: 15px;
+}
+/* ..............fin de la section......... */
 *{
     /* border: solid; */
 }
@@ -461,7 +481,7 @@ h1{
 
 /* ...............debut de la page galerie ......................................*/
 
-.photo{
+/* .photo{
     padding: 4%;
     
 }
@@ -475,32 +495,61 @@ h1{
     height: 25rem;
     width: 35rem;
     padding-bottom: 4.5%;
+} */
+
+
+.photo{
+    
+    /* margin: 50px 0 0 27%; */
+    /* padding: 10px; */
+    /* width: 44%;  */
+    
+
 }
+
+.photo a img{
+    height: 45%;
+    width:30% ;
+    padding: 0.5%;
+    
+}
+.photo img{
+    height: 35%;
+    padding: 1%;
+
+}
+    
+
+
 /* .........End page galerie................................................. */
 
 /* .............. pages offres .....................................*/
-.services .bo-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
-    gap: 1.5rem;
-    
+#article{
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+    vertical-align: middle;
 }
 
-.services .bo-container .bos-services{
-    padding: 1rem 1rem;
-    text-align: center;
-    background-color: rgb(236, 235, 135);
+#services{
+    border: 4px solid rgb(65, 49, 49);
+    width: 150px;
+    min-height: 200px;
+    margin: 10px;
+    padding-left: 20px;
+    float: left;
 }
-
-.services .bo-container .bos-services:hover{
-    background-color: #f7f7f7;
+#services img{
+    /* margin: 5px; */
+    width: auto;
+    height: 100px;
 }
-
-.services .bo-container .bos-services img{
-    height: 10rem;
-
+b{
+    color: rgb(12, 41, 14);
+    font-size: 3rem;
 }
-
 
 /* ...................fin de page offres......................................... */
 

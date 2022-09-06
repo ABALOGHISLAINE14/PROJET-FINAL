@@ -210,7 +210,92 @@
 
         </section>
 
-<!-- fin section quatre.................. -->
+        <!-- fin section quatre.................. -->
+
+        <!-- section cinq -->
+
+        <section id="team" class="team section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-header text-center pb-5">
+                            <h2>NOTRE EQUIPE</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                perferendis sit aperiam mollitia recusandae voluptates </p> 
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md col-lg-3">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <img src="./IMAGES/image6.jpg" alt="" class="img-fluid rounded-circle w-50">
+                                <h3 class="card-title py-2">AMOUSSOU Armel</h3>
+                                <p class="card-text">Lorem ipsum dolor sit, amet consectetur 
+                                    adipisicing elit. Velit, dolorem.</p>
+                                <p class="socials">
+                                    <i class="bi bi-twitter text-dark mx-1"></i>
+                                    <i class="bi bi-facebook text-dark mx-1"></i>
+                                    <i class="bi bi-linkedin text-dark mx-1"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md col-lg-3">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <img src="./IMAGES/image6.jpg" alt="" class="img-fluid rounded-circle w-50">
+                                <h3 class="card-title py-2">AMOUSSOU Armel</h3>
+                                <p class="card-text">Lorem ipsum dolor sit, amet consectetur 
+                                    adipisicing elit. Velit, dolorem.</p>
+                                <p class="socials">
+                                    <i class="bi bi-twitter text-dark mx-1"></i>
+                                    <i class="bi bi-facebook text-dark mx-1"></i>
+                                    <i class="bi bi-linkedin text-dark mx-1"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md col-lg-3">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <img src="./IMAGES/image6.jpg" alt="" class="img-fluid rounded-circle w-50">
+                                <h3 class="card-title py-2">AMOUSSOU Armel</h3>
+                                <p class="card-text">Lorem ipsum dolor sit, amet consectetur 
+                                    adipisicing elit. Velit, dolorem.</p>
+                                <p class="socials">
+                                    <i class="bi bi-twitter text-dark mx-1"></i>
+                                    <i class="bi bi-facebook text-dark mx-1"></i>
+                                    <i class="bi bi-linkedin text-dark mx-1"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md col-lg-3">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <img src="./IMAGES/image6.jpg" alt="" class="img-fluid rounded-circle w-50">
+                                <h3 class="card-title py-2">AMOUSSOU Armel</h3>
+                                <p class="card-text">Lorem ipsum dolor sit, amet consectetur 
+                                    adipisicing elit. Velit, dolorem.</p>
+                                <p class="socials">
+                                    <i class="bi bi-twitter text-dark mx-1"></i>
+                                    <i class="bi bi-facebook text-dark mx-1"></i>
+                                    <i class="bi bi-linkedin text-dark mx-1"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+
 
 
 

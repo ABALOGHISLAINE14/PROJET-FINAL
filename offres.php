@@ -48,11 +48,82 @@
     </section>
     <!-- ends de la section une --> 
     
+        <?php
+        require_once('service.php');
+
+
+        ?>
+
+        <!-- <div class="formservice">
+            <form action="offres" method="post">
+                
+
+            </form>
+        </div> -->
+        
+        <nav class="navbar bg-light offre">
+                <div class="container-fluid offre">
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" name="motcle" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit" name="btsubmit">Search</button> 
+                        <br>
+
+                        <button type="button" class="btn btn-dark">Reserver</button>
+
+                    </form>
+                </div>
+        </nav>
+
+
+
+        <div id="article">
+        <?php
+        if(isset($_POST['btsubmit'])){
+            $mc= $_POST['motcle'];
+            $reqSelect="select * from services_ajdl where SERVICE like '%$mc%' ";
+
+        }
+        else{
+            $reqSelect="select * from services_ajdl";
+
+        }
+
+        $resultat= mysqli_query($cnconnexion, $reqSelect);
+        $nbr=mysqli_num_rows($resultat);
+        echo "<p><b>" .$nbr." </b>Resultats de votre recherche....</p>";
+         while ($ligne=mysqli_fetch_assoc($resultat))
+
+         {   
+        ?>
+        <div id="services">
+            <img src=" <?php echo $ligne ['PHOTO'] ?>   " alt=""/> <BR></BR>
+            
+            <!-- <?php  echo $ligne['ID'];?> -->
+            <?php  echo $ligne['SERVICE'];?>
+            <br>
+            <?php  echo $ligne['PRIX'];?>
+
+        </div>
+
+        <?php  } ?>
+        
+        <!-- <button type="button" class="btn btn-dark ">reserver</button> -->
+
+
+
+        </div>
+
+
+
+
     
+
+
+
 
     <!-- footer section start -->
 
-    <?php include('footer.php') ?>
+
     
     <!-- footer section ends -->
 
