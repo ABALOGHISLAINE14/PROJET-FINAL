@@ -39,13 +39,13 @@
    <!-- Ends header section -->
 
    <!-- Start section une -->
-    <section class="">
+    <!-- <section class="">
       <div class="titre1">
         <div class="titre0">
             <h1>LES OFFRES DE L'ASSOCIATION DES JEUNES POUR LE DEVELOPPEMENT LOCAL</h1>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- ends de la section une --> 
     
         <?php
@@ -61,7 +61,7 @@
             </form>
         </div> -->
         
-        <nav class="navbar bg-light offre">
+        <!-- <nav class="navbar bg-light offre">
                 <div class="container-fluid offre">
                     <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" name="motcle" placeholder="Search" aria-label="Search">
@@ -69,10 +69,25 @@
                         <br>
 
                         <button type="button" class="btn btn-dark">Reserver</button>
+                        <a href="login.php" class="loginn">LOGIN</a>
+
 
                     </form>
                 </div>
-        </nav>
+        </nav> -->
+        <div id="entete">
+            <a href="loginn.php"class="login">se connecter</a>
+            <img src="" alt="">
+            <p >LES SERVICES DE AJDL</p>
+            <div id="formservice">
+                <form  name="formservice"action="" method="post">
+                    <input id="motcle" type="text" name="motcle" placeholder="Recherche">
+                    <input class="btfind" type="submit" name="btsubmit" value="recherche">
+                </form>
+            </div>
+
+        </div>
+
 
 
 
