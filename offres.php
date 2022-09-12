@@ -27,12 +27,13 @@
     <!-- <a href="accueil.php" class="logo"> <img src="images/logo.png" alt=""> LOGO</a> -->
     <nav class="navbar">
     <a href="accueil.php">ACCUIEL</a>
-    <a href="ajdl.php">AJDL</a>
+    <a href="ajdl.php">GALERIE</a>
     <a href="activite.php">ACTIVITES</a>
     <a href="offres.php">OFFRES</a>
     <a href="projet.php">PROJETS</a>
     <a href="contact.php">CONTACT</a>
-    <a href="index.php">LOGIN</a> 
+    <a class="btn btn-warning"href="index.php">INSCRIPTION</a> 
+    
     </nav>
     <div id="menu-btn" class="fas fa-bars"></div>
    </section>
@@ -54,35 +55,17 @@
 
         ?>
 
-        <!-- <div class="formservice">
-            <form action="offres" method="post">
-                
-
-            </form>
-        </div> -->
         
-        <!-- <nav class="navbar bg-light offre">
-                <div class="container-fluid offre">
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" name="motcle" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit" name="btsubmit">Search</button> 
-                        <br>
-
-                        <button type="button" class="btn btn-dark">Reserver</button>
-                        <a href="login.php" class="loginn">LOGIN</a>
-
-
-                    </form>
-                </div>
-        </nav> -->
         <div id="entete">
             <a href="loginn.php"class="login">se connecter</a>
             <img src="" alt="">
             <p >LES SERVICES DE AJDL</p>
             <div id="formservice">
                 <form  name="formservice"action="" method="post">
-                    <input id="motcle" type="text" name="motcle" placeholder="Recherche">
-                    <input class="btfind" type="submit" name="btsubmit" value="recherche">
+                    <input id="motcle" type="text" name="motcle" placeholder="Entrer votre demande">
+                    <input class="btfind" type="submit" name="btsubmit" value="recherche">       
+    
+                    <a class="btfind"href="contact.php"><input type="submit" name="btsubmit" value="">Réserver</a>
                 </form>
             </div>
 

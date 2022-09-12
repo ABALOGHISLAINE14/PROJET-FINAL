@@ -23,29 +23,29 @@
 <div class="box menu">
 <h3>Navigation</h3>
 <a href="accueil.php"> <i class="fas fa-angle-right"></i> Accueil</a>
-<a href="ajdl.php"> <i class="fas fa-angle-right"></i>  Adjl</a>
-<a href="activite.php"> <i class="fas fa-angle-right"></i>  ACTIVITES</a>
+<a href="ajdl.php"> <i class="fas fa-angle-right"></i>  Galerie</a>
+<a href="activite.php"> <i class="fas fa-angle-right"></i>  Ativités</a>
 <a href="offres.php"> <i class="fas fa-angle-right"></i> Offres</a>
 <a href="projet.php">  <i class="fas fa-angle-right"></i> Projets</a>
 <a href="contact.php"> <i class="fas fa-angle-right"></i> Contact</a>
-<a href="login.php">  <i class="fas fa-angle-right"></i> Login</a> 
+<a href="index.php">  <i class="fas fa-angle-right"></i> Inscription</a> 
 </div>
 
 <div class="box">
 <h3>Contactez-nous</h3>
-<a href="accueil.php"> <i class="fas fa-phone"></i> 228 92 07 36 95</a>
-<a href="ajdl.php"> <i class="fas fa-phone"></i>  228 90 91 98 18</a>
-<a href="activite.php"> <i class="fas fa-envelope"></i>sylvieabalo48@gmail.com</a>
+<a href="accueil.php"> <i class="fas fa-phone"></i> 228 93 98 44 33</a>
+<a href="ajdl.php"> <i class="fas fa-phone"></i>  228 98 98 44 33</a>
+<a href="activite.php"> <i class="fas fa-envelope"></i>  ajdl_tgafrique@gmail.com</a>
 <a href="projet.php">  <i class="fas fa-map"></i> TOGO-LOME</a>
  
 </div>
 
 <div class="box">
 <h3>Follow us</h3>
-<a href="accueil.php"> <i class="fab fa-facebook"></i> Facebook</a>
-<a href="ajdl.php"> <i class="fab fa-twitter"></i>Twitter</a>
-<a href="activite.php"> <i class="fab fa-instagram"></i>instagram</a>
-<a href="offres.php"> <i class="fab fa-linkedin"></i> Linkedin</a>
+<a href="https://www.facebook.com/AJDLTogo/"> <i class="fab fa-facebook"></i> Facebook</a>
+<a href="https://twitter.com/africube_"> <i class="fab fa-twitter"></i> Twitter</a>
+<a href="https://www.instagram.com/ala_togolaise/"> <i class="fab fa-instagram"></i>  instagram</a>
+<a href="https://tg.linkedin.com/in/ajd-togo-59b6ba225/en?trk=people-guest_people_search-card"> <i class="fab fa-linkedin"></i> Linkedin</a>
 </div>
 
 <div class="box">

@@ -18,12 +18,13 @@
     <!-- <a href="accueil.php" class="logo"> <img src="images/logo.png" alt=""> LOGO</a> -->
     <nav class="navbar">
     <a href="accueil.php">ACCUIEL</a>
-    <a href="ajdl.php">AJDL</a>
+    <a href="ajdl.php">GALERIE</a>
     <a href="activite.php">ACTIVITES</a>
     <a href="offres.php">OFFRES</a>
     <a href="projet.php">PROJETS</a>
     <a href="contact.php">CONTACT</a>
-    <a href="index.php">LOGIN</a> 
+    <a class="btn btn-warning"href="index.php">INSCRIPTION</a> 
+    
     
     </nav>
     <div id="menu-btn" class="fas fa-bars"></div>

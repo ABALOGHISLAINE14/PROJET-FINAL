@@ -10,7 +10,7 @@
 
     <!-- font awesome cdn link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-   
+    
     <!-- custom css file link -->
     <link rel="stylesheet" href="style.css">
 
@@ -30,12 +30,12 @@
     <!-- <a href="accueil.php" class="logo"> <img src="images/logo.png" alt=""> LOGO</a> -->
     <nav class="navbar">
     <a href="accueil.php">ACCUIEL</a>
-    <a href="ajdl.php">AJDL</a>
+    <a href="ajdl.php">GALERIE</a>
     <a href="activite.php">ACTIVITES</a>
     <a href="offres.php">OFFRES</a>
     <a href="projet.php">PROJETS</a>
     <a href="contact.php">CONTACT</a>
-    <a href="index.php">LOGIN</a> 
+    <a class="btn btn-warning"href="index.php">INSCRIPTION</a> 
     
     </nav>
     <div id="menu-btn" class="fas fa-bars"></div>
@@ -165,7 +165,9 @@
                     accusantium cupiditate dignissimos dolorem 
                     corporis sapiente magni animi ut!
                 </p>
+                    <a href="activite.php">
                     <button type="button" class="btn btn-dark">En savoir plus</button>
+                    </a>
 
             </div>
             
@@ -178,8 +180,11 @@
                     accusantium cupiditate dignissimos dolorem 
                     corporis sapiente magni animi ut!
                 </p>
+                    
+                <a href="offres.php">
                     <button type="button" class="btn btn-dark">En savoir plus</button>
-
+                    </a>
+                
             </div>
             <div class="boxx">
                 <i class="fas fa-bell"></i>
@@ -190,7 +195,9 @@
                     accusantium cupiditate dignissimos dolorem 
                     corporis sapiente magni animi ut!
                 </p>
+                <a href="projet.php">
                     <button type="button" class="btn btn-dark">En savoir plus</button>
+                    </a>
 
             </div>
             <div class="boxx">
@@ -202,7 +209,9 @@
                     accusantium cupiditate dignissimos dolorem 
                     corporis sapiente magni animi ut!
                 </p>
+                <a href="index.php">
                     <button type="button" class="btn btn-dark">En savoir plus</button>
+                    </a>
 
             </div>
 
@@ -232,7 +241,7 @@
                     <div class="col-12 col-md col-lg-3">
                         <div class="card text-center">
                             <div class="card-body">
-                                <img src="./IMAGES/image6.jpg" alt="" class="img-fluid rounded-circle w-50">
+                                <img src="./IMAGES/image6.jpg" alt="" class="img-fluid rounded-circle w-55">
                                 <h3 class="card-title py-2">AMOUSSOU Armel</h3>
                                 <p class="card-text">Lorem ipsum dolor sit, amet consectetur 
                                     adipisicing elit. Velit, dolorem.</p>
@@ -247,7 +256,7 @@
                     <div class="col-12 col-md col-lg-3">
                         <div class="card text-center">
                             <div class="card-body">
-                                <img src="./IMAGES/image6.jpg" alt="" class="img-fluid rounded-circle w-50">
+                                <img src="./IMAGES/image6.jpg" alt="" class="img-fluid rounded-circle w-55">
                                 <h3 class="card-title py-2">AMOUSSOU Armel</h3>
                                 <p class="card-text">Lorem ipsum dolor sit, amet consectetur 
                                     adipisicing elit. Velit, dolorem.</p>
@@ -262,7 +271,7 @@
                     <div class="col-12 col-md col-lg-3">
                         <div class="card text-center">
                             <div class="card-body">
-                                <img src="./IMAGES/image6.jpg" alt="" class="img-fluid rounded-circle w-50">
+                                <img src="./IMAGES/image6.jpg" alt="" class="img-fluid rounded-circle w-55">
                                 <h3 class="card-title py-2">AMOUSSOU Armel</h3>
                                 <p class="card-text">Lorem ipsum dolor sit, amet consectetur 
                                     adipisicing elit. Velit, dolorem.</p>
@@ -277,7 +286,7 @@
                     <div class="col-12 col-md col-lg-3">
                         <div class="card text-center">
                             <div class="card-body">
-                                <img src="./IMAGES/image6.jpg" alt="" class="img-fluid rounded-circle w-50">
+                                <img src="./IMAGES/image6.jpg" alt="" class="img-fluid rounded-circle w-55">
                                 <h3 class="card-title py-2">AMOUSSOU Armel</h3>
                                 <p class="card-text">Lorem ipsum dolor sit, amet consectetur 
                                     adipisicing elit. Velit, dolorem.</p>
@@ -295,60 +304,6 @@
 
         </section>
 
-
-
-
-
-
-
-    <!-- start section quatre -->
-
-      <!-- <section class="service" id="service">
-        <h1 class="heading">.. <span>....</span></h1>
-        <div class="bos-container">
-            <div class="bos">
-                <img class="imge" src="" alt="">
-                <div class="content">
-                    <img src="./IMAGES/image6.jpg" alt="">
-                    <h3>Activités</h3>
-                    <p>Lorem ipsum dolor sit, amet </p> <br>
-                    <button type="button" class="btn btn-dark">En savoir plus</button>
-
-                </div>
-            </div>
-            <div class="bos">
-                <img class="imge"imge src="" alt="">
-                <div class="content">
-                    <img src="./IMAGES/image6.jpg" alt="">
-                    <h3>Offres</h3>
-                    <p>Lorem ipsum dolor sit, amet </p> <br>
-                    <button type="button" class="btn btn-dark">En savoir plus</button>
-
-                </div> 
-            </div>
-            <div class="bos">
-                <img class="imge"src="" alt="">
-                <div class="content">
-                    <img src="./IMAGES/image5.jpg" alt="">
-                    <h3>Projets</h3>
-                    <p>Lorem ipsum dolor sit, amet </p> <br>
-                    <button type="button" class="btn btn-dark">En savoir plus</button>
-                </div>
-            </div>
-            
-            <div class="bos">
-                <img class="imge"src="" alt="">
-                <div class="content">
-                    <img src="./IMAGES/image5.jpg" alt="">
-                    <h3>Inscrivez-vous</h3>
-                    <p>Lorem ipsum dolor sit, amet </p> <br>
-                    <button type="button" class="btn btn-dark">En savoir plus</button>
-
-                </div>
-            </div> 
-        </div>
-
-    </section>  -->
 
     <!-- footer section start -->
 

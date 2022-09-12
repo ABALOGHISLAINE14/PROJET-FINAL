@@ -12,13 +12,22 @@
     <title>Tableau de bord</title>
     <style>
     .photoservice{
-            width: 130px;  height: 100px; border-radius: 5%; border: 1px solid;
+            width: 130px;  height: 100px; 
+            
+            /* border-radius: 1%; border:1px solid; */
             }
     </style>
         
     <link rel="stylesheet" href="style.css">
 </head>
+
+
+
 <body>
+    
+
+
+
     <p><h2><b>liste des offres</b></h2></p>
     <?php
     $reqselect="select * from services_ajdl";

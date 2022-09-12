@@ -22,7 +22,8 @@
     <a href="offres.php">OFFRES</a>
     <a href="projet.php">PROJETS</a>
     <a href="contact.php">CONTACT</a>
-    <a href="index.php">LOGIN</a> 
+    <a class="btn btn-warning"href="index.php">INSCRIPTION</a> 
+    
     
     </nav>
     <div id="menu-btn" class="fas fa-bars"></div>

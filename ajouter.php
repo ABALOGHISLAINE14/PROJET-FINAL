@@ -18,7 +18,28 @@
         
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body> 
+    <!--Starts header section -->
+   <section class="header">
+    <img src="./IMAGES/logo.png.jpg" class="logo" alt="">
+    <!-- <a href="accueil.php" class="logo"> <img src="images/logo.png" alt=""> LOGO</a> -->
+    <nav class="navbar">
+    <a href="accueil.php">ACCUIEL</a>
+    <a href="ajdl.php">GALERIE</a>
+    <a href="activite.php">ACTIVITES</a>
+    <a href="offres.php">OFFRES</a>
+    <a href="projet.php">PROJETS</a>
+    <a href="contact.php">CONTACT</a>
+    <a class="btn btn-warning"href="index.php">INSCRIPTION</a> 
+    
+    </nav>
+    <div id="menu-btn" class="fas fa-bars"></div>
+   </section>
+   <!-- Ends header section -->
+
+
+
+
     <div id="container">
         <form name="formadd" action="" method="post" class="formulaire" enctype="multipart/form-data">
 
@@ -37,6 +58,7 @@
         <input type="file" name="txtphoto" class="zonetext" placeholder="choisir l'image" required>
 
         <input type="submit" name="btadd" value="ajouter" class="submit"> <br>
+        <br>
         <p><a href="admin.php"class="submit">Tableau de bord</a></p>
 
 

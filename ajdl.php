@@ -34,7 +34,8 @@
     <a href="offres.php">OFFRES</a>
     <a href="projet.php">PROJETS</a>
     <a href="contact.php">CONTACT</a>
-    <a href="index.php">LOGIN</a> 
+    <a class="btn btn-warning"href="index.php">INSCRIPTION</a> 
+    
     </nav>
     <div id="menu-btn" class="fas fa-bars"></div>
    </section>
@@ -89,17 +90,17 @@
 
     </section> -->
     
-    <!-- <div class="container">
+     <div class="container">
         <div class="photo">
 
             <a href="./IMAGES/image4.jpg"data-lightbox="mygallery"><img src="./IMAGES/image4.jpg" alt=""></a>
             <a href="./IMAGES/image5.jpg"data-lightbox="mygallery"><img src="./IMAGES/image5.jpg" alt=""></a> 
             <a href="./IMAGES/image6.jpg"data-lightbox="mygallery"><img src="./IMAGES/image6.jpg" alt=""></a> 
             <a href="./IMAGES/image4.jpg"data-lightbox="mygallery"><img src="./IMAGES/image4.jpg" alt=""></a> 
-            <a href="./IMAGES/image7.jpg"data-lightbox="mygallery"><img src="./IMAGES/image7.jpg" alt=""></a> 
+            <a href="./IMAGES/image6.jpg"data-lightbox="mygallery"><img src="./IMAGES/image6.jpg" alt=""></a> 
             <a href="./IMAGES/image5.jpg"data-lightbox="mygallery"><img src="./IMAGES/image5.jpg" alt=""></a>
-            <a href="./IMAGES/image5.jpg"data-lightbox="mygallery"><img src="./IMAGES/image5.jpg" alt=""></a>
-            <a href="./IMAGES/image5.jpg"data-lightbox="mygallery"><img src="./IMAGES/image5.jpg" alt=""></a>
+            <!-- <a href="./IMAGES/image5.jpg"data-lightbox="mygallery"><img src="./IMAGES/image5.jpg" alt=""></a>
+            <a href="./IMAGES/image5.jpg"data-lightbox="mygallery"><img src="./IMAGES/image5.jpg" alt=""></a> -->
 
 
         </div>
