@@ -60,7 +60,7 @@
       
         <div class="row">
             <div class="imgg">
-                <img src="./IMAGES/image1.jpg.jpg" alt="">
+                <img src="./IMAGES/58.jpg" alt="">
             </div>
             <div class="bose-container"> 
                 <div class="bose">
@@ -70,7 +70,7 @@
                         voluptatibus fugiat! Fuga at repudiandae iure libero re.</P>
                 </div>
                 <div class="bose">
-                    <h3><i class="fas fa-user">  projet 2</i></h3>
+                  <h3><i class="fas fa-user">  projet 2</i></h3>
                     <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
                         Id esse fugit aliquam doloribus inventore exercitationem?
                         voluptatibus fugiat! Fuga at repudiandae iure libero repellat.</P>

@@ -29,7 +29,7 @@
     <!-- <a href="accueil.php" class="logo"> <img src="images/logo.png" alt=""> LOGO</a> -->
     <nav class="navbar">
     <a href="accueil.php">ACCUIEL</a>
-    <a href="ajdl.php">AJDL</a>
+    <a href="ajdl.php">GALERIE</a>
     <a href="activite.php">ACTIVITES</a>
     <a href="offres.php">OFFRES</a>
     <a href="projet.php">PROJETS</a>
@@ -47,65 +47,92 @@
    <section class="accueil">
     <!-- sous-section une -->
 
-    <div class="titre1">
+    <!-- <div class="titre1">
         
         <div class="titre0">
             <h1>BIENVENUE A L'ASSOCIATION DES JEUNES POUR LE DEVELOPPEMENT LOCAL</h1>
         </div>
-    </div>
+    </div> -->
     <!-- end sous section une -->
 
 
     <!-- start section deux -->
 
-    <!-- <section class="photo">
-        <H2>FOIRE</H2> <br>
-        <div class="container-fluid">
-            <div class="row galerie">
-                 <div class="col">
-                    <img src="./IMAGES/image4.jpg" alt="">
-                </div>
-                <div class="col">
-                    <img src="./IMAGES/image4.jpg" alt="">
-                </div>
-                <div class="col">
-                    <img src="./IMAGES/image4.jpg" alt="">
-                </div>
-            </div>
-        </div>
-        
-        <div class="container-fluid">
-            <div class="row galerie">
-                 <div class="col">
-                    <img src="./IMAGES/image4.jpg" alt="">
-                </div>
-                <div class="col">
-                    <img src="./IMAGES/image4.jpg" alt="">
-                </div>
-                <div class="col">
-                    <img src="./IMAGES/image4.jpg" alt="">
-                </div>
-            </div>
+    
+    
+    <div class="container">
+        <div class="  photo">
+
+            <a href="./IMAGES/41.jpg"data-lightbox="mygallery"><img src="./IMAGES/41.jpg" alt=""></a>
+            <a href="./IMAGES/49.jpg"data-lightbox="mygallery"><img src="./IMAGES/49.jpg" alt=""></a> 
+            <a href="./IMAGES/52.jpg"data-lightbox="mygallery"><img src="./IMAGES/52.jpg" alt=""></a> 
+            <a href="./IMAGES/48.jpg"data-lightbox="mygallery"><img src="./IMAGES/48.jpg" alt=""></a> 
+            <a href="./IMAGES/53.jpg"data-lightbox="mygallery"><img src="./IMAGES/43.jpg" alt=""></a> 
+            <a href="./IMAGES/50.jpg"data-lightbox="mygallery"><img src="./IMAGES/50.jpg" alt=""></a>
+            <a href="./IMAGES/56.jpg"data-lightbox="mygallery"><img src="./IMAGES/56.jpg" alt=""></a>
+            <a href="./IMAGES/54.jpg"data-lightbox="mygallery"><img src="./IMAGES/54.jpg" alt=""></a>
+            <a href="./IMAGES/55.jpg"data-lightbox="mygallery"><img src="./IMAGES/55.jpg" alt=""></a>
+
+
         </div>
 
-    </section> -->
+        
     
-     <div class="container">
+    
+        <div class="  photo">
+
+            <a href="./IMAGES/17.jpg"data-lightbox="mygallery"><img src="./IMAGES/17.jpg" alt=""></a>
+            <a href="./IMAGES/18.jpg"data-lightbox="mygallery"><img src="./IMAGES/18.jpg" alt=""></a> 
+            <a href="./IMAGES/47.jpg"data-lightbox="mygallery"><img src="./IMAGES/47.jpg" alt=""></a> 
+            <a href="./IMAGES/image4.jpg"data-lightbox="mygallery"><img src="./IMAGES/image4.jpg" alt=""></a> 
+            <a href="./IMAGES/21.jpg"data-lightbox="mygallery"><img src="./IMAGES/21.jpg" alt=""></a> 
+            <a href="./IMAGES/33.jpg"data-lightbox="mygallery"><img src="./IMAGES/33.jpg" alt=""></a>
+            <a href="./IMAGES/42.jpg"data-lightbox="mygallery"><img src="./IMAGES/42.jpg" alt=""></a>
+            <a href="./IMAGES/46.jpg"data-lightbox="mygallery"><img src="./IMAGES/46.jpg" alt=""></a>
+            <a href="./IMAGES/50.jpg"data-lightbox="mygallery"><img src="./IMAGES/50.jpg" alt=""></a>
+
+
+
+        </div>
+        <div class="  photo">
+
+            <a href="./IMAGES/36.jpg"data-lightbox="mygallery"><img src="./IMAGES/36.jpg" alt=""></a>
+            <a href="./IMAGES/37.jpg"data-lightbox="mygallery"><img src="./IMAGES/37.jpg" alt=""></a> 
+            <a href="./IMAGES/40.jpg"data-lightbox="mygallery"><img src="./IMAGES/40.jpg" alt=""></a> 
+            <a href="./IMAGES/57.jpg"data-lightbox="mygallery"><img src="./IMAGES/57.jpg" alt=""></a> 
+            <a href="./IMAGES/60.jpg"data-lightbox="mygallery"><img src="./IMAGES/60.jpg" alt=""></a> 
+            <a href="./IMAGES/59.jpg"data-lightbox="mygallery"><img src="./IMAGES/59.jpg" alt=""></a>
+
+</div>
+
+
+
+
+    </div> 
+
+
+
+
+
+
+
+
+    
+    <div class="container">
         <div class="photo">
 
-            <a href="./IMAGES/image4.jpg"data-lightbox="mygallery"><img src="./IMAGES/image4.jpg" alt=""></a>
-            <a href="./IMAGES/image5.jpg"data-lightbox="mygallery"><img src="./IMAGES/image5.jpg" alt=""></a> 
-            <a href="./IMAGES/image6.jpg"data-lightbox="mygallery"><img src="./IMAGES/image6.jpg" alt=""></a> 
-            <a href="./IMAGES/image4.jpg"data-lightbox="mygallery"><img src="./IMAGES/image4.jpg" alt=""></a> 
-            <a href="./IMAGES/image6.jpg"data-lightbox="mygallery"><img src="./IMAGES/image6.jpg" alt=""></a> 
-            <a href="./IMAGES/image5.jpg"data-lightbox="mygallery"><img src="./IMAGES/image5.jpg" alt=""></a>
-            <!-- <a href="./IMAGES/image5.jpg"data-lightbox="mygallery"><img src="./IMAGES/image5.jpg" alt=""></a>
-            <a href="./IMAGES/image5.jpg"data-lightbox="mygallery"><img src="./IMAGES/image5.jpg" alt=""></a> -->
-
+            <a href="./IMAGES/24.jpg"data-lightbox="mygallery"><img src="./IMAGES/24.jpg" alt=""></a>
+            <a href="./IMAGES/34.jpg"data-lightbox="mygallery"><img src="./IMAGES/34.jpg" alt=""></a> 
+            <a href="./IMAGES/30.jpg"data-lightbox="mygallery"><img src="./IMAGES/30.jpg" alt=""></a> 
+            <a href="./IMAGES/20.jpg"data-lightbox="mygallery"><img src="./IMAGES/20.jpg" alt=""></a> 
+            <a href="./IMAGES/31.jpg"data-lightbox="mygallery"><img src="./IMAGES/31.jpg" alt=""></a> 
+            <a href="./IMAGES/34.jpg"data-lightbox="mygallery"><img src="./IMAGES/34.jpg" alt=""></a>
 
         </div>
 
-    </div> -->
+    </div>
+
+
     
     
 

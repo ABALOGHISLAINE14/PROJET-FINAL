@@ -62,7 +62,7 @@
         <div class="container-fluid ">
             <div class="row ass">
                 <div class="col propos">
-                    <img src="./IMAGES/image1.jpg.jpg" alt="">
+                    <img src="./IMAGES/46.jpg" alt="">
                 </div>
 
                 <div class="col order-5 propos">

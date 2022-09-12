@@ -56,7 +56,7 @@
         <div class="row">
         
           <div class="col-lg-4 act">
-            <img src="./IMAGES/image9.jpg" alt="">
+            <img src="./IMAGES/56.jpg" alt="">
 
           </div>
           <div class="col-lg-4 act">
@@ -107,7 +107,7 @@
 
           </div>
           <div class="col-lg-4 act">
-            <img src="./IMAGES/image9.jpg" alt="">
+            <img src="./IMAGES/26.jpg" alt="">
 
           </div>
           
@@ -120,7 +120,7 @@
         <div class="row">
         
           <div class="col-lg-4 act">
-            <img src="./IMAGES/image9.jpg" alt="">
+            <img src="./IMAGES/34.jpg" alt="">
 
           </div>
 
