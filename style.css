@@ -69,6 +69,19 @@ html::-webkit-scrollbar-thumb{
     font-size: 2.5rem;
     color: white;
 }
+.header .navbar{
+    animation-name: slidein;
+}
+@keyframes slidein {
+    0%{
+        margin-left: 100%;
+        width: 300%;
+    }
+    100%{
+        margin-left: 0%;
+        width: 100%;
+    }
+}
 .header .navbar a{
     font-size: 1.5rem;
     margin-left: 2rem;
@@ -294,64 +307,6 @@ html::-webkit-scrollbar-thumb{
 
 
 
-/* Starts section quatre
-.heading{
-    text-align: center;
-    font-size: 3.5rem;
-    padding: 1rem;
-    color: rgb(15, 14, 14);
-}
-.header span{
-    color: #ff9;
-    padding: 1rem;
-}
-
-
-.service .bos-container{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.5rem;
-}
-.service .bos-container .bos{
-    flex: 1.1 5rem;
-    position: relative;
-    overflow: hidden;
-    box-shadow: 5px 17px 12px rgba(0, 0, 0, 0.16);
-    cursor: pointer;
-    border-radius: 1.5rem;
-}
-.service .bos-container .bos .imge{
-    height: 10vh;
-    width: 30vh;
-    position: absolute; 
-     top: 100%; left: 0;
-}
-.service .bos-container .bos .content{
-    text-align: center;
-    background: rgb(235, 240, 213);
-    padding: 2rem;
-}
-.service .bos-container .bos .content img{
-    margin: 1.5rem 0;
-    height: 35vh;
-    width: 40vh;
-}
-.service .bos-container .bos .content h3{
-    font-size: 2.5rem;
-    color: #222;
-}
-.service .bos-container .bos .content p{
-    font-size: 1.5rem;
-    color: rgb(121, 68, 68);
-    padding: 1rem;
-}
-.service .bos-container .bos:hover .content {
-    top: 0;
-}
-.service .bos-container .bos:hover .content {
-    transform: translateY(100deg);
-} */
-
 /* page accueil */
 
 /* ........................PAGE ACTIVITES........................... */
@@ -576,6 +531,7 @@ h1{
     width: 110px;
     height: 90px;
     padding-top: 15px;
+    margin-right: 13px;
     
 }
 b{
@@ -709,14 +665,20 @@ table td{
     border: 0.5px solid;
     
 }
-
+#services{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 800;
+    /* background-color: red; */
+    /* border: solid; */
+}
 /* .myphoto{ 
     width: 130px;  height: 100px; border-radius: 5%; border: 1px solid;
 } */ */
 .add i{
     font-size: 3rem;
     color: rgb(221, 26, 26);
-    
+    border: solid;
 }
 .edit i{
     font-size: 2rem;
@@ -956,7 +918,67 @@ table td{
     html{
         font-size: 50%;
     } 
+    
 }
+
+@media(max-width:991px){
+    
+    .titre1 h1{
+        padding: 200px;
+        font-size: 5rem;
+    }
+    
+}
+@media(max-width:768px){
+    
+    .titre1 h1{
+        padding: 150px;
+        font-size: 3rem;
+    }
+    
+}
+
+
+@media(max-width:450px){
+    
+    .titre1 h1{
+        padding: 150px;
+        font-size: 2rem;
+    }
+    
+}
+
+@media(max-width:991px){ 
+    
+    .titre1 h1{
+        padding: 200px;
+        font-size: 5rem;
+    }
+    
+}
+@media(max-width:768px){
+    
+    .titre1 h1{
+        padding: 150px;
+        font-size: 3rem;
+    }
+    
+}
+
+
+@media(max-width:450px){
+    
+    .titre1 h1{
+        padding: 150px;
+        font-size: 2rem;
+    }
+    
+} */
+
+
+
+    
+
 
 
 

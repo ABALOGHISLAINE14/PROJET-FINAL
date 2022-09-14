@@ -61,8 +61,8 @@
             <td><?php echo $ligne['SERVICE']?></td>
             <td><?php echo $ligne['PRIX']?></td>
             <td> <img src='<?php echo $ligne['PHOTO']?>' class="photoservice"></td>
-            <td><a class="delete" href="supprimer.php"><i class="fa-solid fa-trash"></i></a></td>
-            <td><a class="edit" href="modifier.php"><i class="fa-solid fa-user-pen"></i></a></td>
+            <td><a class="delete" href="supprimer.php?del=<?php echo $ligne['ID']?>"><i class="fa-solid fa-trash"></i></a></td>
+            <td><a class="edit" href="modifier.php?edit=<?php echo $ligne['ID']?>"><i class="fa-solid fa-user-pen"></i></a></td>
 
 
         </tr>

@@ -79,13 +79,51 @@
                 </form>
 
             </section>
+<!-- ......................................... -->
+            
+<div id="container">
+        <form action="" method="post" class="formulaire">
+            <h2>Contactez-nous</h2>
+            <label for="Nom et prénoms"></label>
+            <input type="text" placeholder="entrer votre nom et prénom" name="nom" class="zonetext">
+            <label for="email"></label>
+            <input type="text" placeholder="entrer votre email" name="email" class="zonetext">
+            <label for="Téléphone">
 
-            <section>
-                
-            </section>
+            </label>
+            <input type="text" placeholder="entrer numéro de téléphone" name="phone" class="zonetext">
+
+            <textarea class="zonetext" name="message" id="" placeholder="entrer votre message" cols="30" rows="10"></textarea>
+
+            <input type="submit" name="envoyer" value="envoyer" id="envoyer" class="submit">
+            
+            <?php
+
+            $connection = mysqli_connect('localhost', 'root', '', 'connexion');
 
 
+            if(isset($_POST['envoyer']))
+                {    
+     
+     $nom = $_POST['nom'];
+     $email = $_POST['email'];
+     $phone = $_POST['phone'];
+     $message = $_POST['message'];
+
+
+     $sql = "INSERT INTO messages (nom, email, phone, message) VALUES ('$nom','$email', '$phone', '$message')";
+     if (mysqli_query($connection, $sql)) {
+        echo "New record has been added successfully !";
+     } else {
+        echo "Error: " . $sql . ":-" . mysqli_error($connection);
+     }
+     mysqli_close($connection);
+        }
+            ?>
+            
+        </form>
+    </div>
+</body>
         
-        
-        </body>
+</body>
 </html>

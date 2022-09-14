@@ -52,7 +52,7 @@
         
         <div class="titre0">
 
-            <h1>BIENVENUE A L'ASSOCIATION DES JEUNES POUR LE DEVELOPPEMENT LOCAL</h1>
+            <h1 class="justify-content">BIENVENUE A L'ASSOCIATION DES JEUNES POUR LE DEVELOPPEMENT LOCAL</h1>
         </div>
     </div>
     <!-- end sous section une -->
@@ -91,7 +91,7 @@
 <!-- Start section trois...................................... -->
 
         <section class="Menu">
-            <div class="boxx-container">
+            <div class="boxx-container  ">
                 <div class="boxx">
                     <div class="imagess">
                     <img src="./IMAGES/image4.jpg" alt="">
@@ -316,6 +316,6 @@
     <!-- swiper js link -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <!-- custom js file link -->
-    <script src="script.js"></script>
+    <script src="srcipt.js"></script>
 </body>
 </html>

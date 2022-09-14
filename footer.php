@@ -65,6 +65,7 @@
  <br>
  <input type="submit" class="btn btn-dark" name="subscribe" value="Subscribe">
 
+</div>
  <?php
     
     
@@ -84,7 +85,6 @@ if(isset($_POST['subscribe'])){
     }
 
  ?>
-</div>
 </form>
  
 </div>

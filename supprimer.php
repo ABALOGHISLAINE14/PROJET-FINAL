@@ -23,9 +23,9 @@
            
            <?php
         
-            if(isset($_GET['supService'])){
+            if(isset($_GET['del'])){
 
-            $sup=$_GET ['supService'];
+            $sup=$_GET ['del'];
 
             $reqDelete="DELETE FROM services_ajdl WHERE ID='$sup'";
              $resultat=mysqli_query($cnconnexion, $reqDelete);
@@ -33,7 +33,7 @@
             
             
              if($resultat){
-                echo "Mis à jour des données validés";
+                echo "suppression réussie";
 
             }
             else{

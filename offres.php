@@ -94,13 +94,19 @@
          {   
         ?>
         <div id="services">
-            <img src=" <?php echo $ligne ['PHOTO'] ?>   " alt=""/> <BR></BR>
+           
+        <img src=" <?php echo $ligne ['PHOTO'] ?>   " alt=""/> <BR></BR>
             
             <!-- <?php  echo $ligne['ID'];?> -->
+            <p>
             <?php  echo $ligne['SERVICE'];?>
+
+            </p>
             <br>
+            <p>
             <?php  echo $ligne['PRIX'];?>
 
+            </p>
         </div>
 
         <?php  } ?>
@@ -119,9 +125,7 @@
 
 
 
-    <!-- footer section start -->
-
-
+    <!-- footer section start --
     
     <!-- footer section ends -->
 

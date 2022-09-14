@@ -24,11 +24,12 @@
         <div id="profil">
             <?php
             session_start();
-            echo"bonjour et bienvenue".$_SESSION['monlogin']. "<br>";
+            echo"bonjour et bienvenue".$_SESSION['monLogin']. "<br>";
 
-            $req="select *from utilisateurs_admin where login='".$_SESSION['monlogin']."'";
+            $req="select * from utilisateurs_admin where login ='".$_SESSION['monLogin']."'";
 
             $resultat=mysqli_query($cnconnexion, $req);
+
             $ligne=mysqli_fetch_assoc($resultat);
             
             ?>

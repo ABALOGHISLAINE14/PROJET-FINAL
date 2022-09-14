@@ -19,9 +19,7 @@
 
         <h2 align="center">Mettre à jour une offre</h2>
        
-        <label for="">ID</label>
-        <input type="text" name="txtid" class="zonetext" value="<?php echo $_GET['mod'] ?>" readonly>
-        
+      
         <label for="">SERVICE</label>
         <input type="text" name="txtService" class="zonetext" placeholder="Entrer l'offre" required>
 
@@ -39,10 +37,9 @@
         
         if(isset($_POST['btmod'])){
 
-            $ID=$_POST ['txtid'];
             $SERVICE=$_POST['txtService'];
             $PRIX=$_POST['txtPrix'];
-            $modifier=$_GET['mod'];
+            $modifier=$_GET['edit'];
 
             $image=$_FILES['txtphoto']['tmp_name'];
 
@@ -51,7 +48,7 @@
             move_uploaded_file($image, $trajet);
             
 
-            $reqUp="UPDATE services_ajdl  SET ID='$ID', SERVICE='$SERVICE', PRIX='$PRIX', PHOTO='$trajet' WHERE ID='$modifier'";
+            $reqUp="UPDATE services_ajdl  SET SERVICE='$SERVICE', PRIX='$PRIX', PHOTO='$trajet' WHERE ID='$modifier'";
             
 
              $resultat=mysqli_query($cnconnexion, $reqUp);

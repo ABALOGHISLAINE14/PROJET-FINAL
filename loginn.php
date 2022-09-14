@@ -50,7 +50,7 @@
                             $ligne=mysqli_fetch_assoc($resultat);
                             if($ligne!=0){
                                     session_start();
-                                        $_SESSION['monlogin']=$_POST['txtlogin'];
+                                        $_SESSION['monLogin']=$_POST['txtlogin'];
                                         header("location:admin.php");
                                      }
 
