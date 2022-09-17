@@ -15,7 +15,7 @@ box-shadow: 0;
 }
 
 *{
-    border: 3px solid;
+    /* border: 3px solid; */
 }
 
 /* ........................starts header......................... */
@@ -45,25 +45,27 @@ html::-webkit-scrollbar-thumb{
 }
 
 
-.header{
-    position: sticky;
-    top: 0; left: 0; right: 0;
+#header{
+    
     z-index: 1000;
     background-color: rgb(43, 77, 43);
-    display: flex;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    padding-left: 45px;
-    padding-right: 60px;
-    box-shadow: var(--light-white);
-    align-items: center;
-    justify-content: space-between;
+    font-size: 1.5rem;
+    color: white; 
+    
+    
+    
+}
+#header a{
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 20px;
     
 }
 
-.header .logo{
-    height: 4%;
-    width: 3%;
+.logo{
+    height: 50px;
+    width: 50px;
 }
 .header .logo{
     font-size: 2.5rem;
@@ -97,7 +99,7 @@ html::-webkit-scrollbar-thumb{
     cursor: pointer;
     color: #222;
     display: none;
-}
+} 
 /* ............................ends header........................*/
 
 /* .................PAGE D'ACCUEIL............................... */ 
@@ -135,19 +137,20 @@ html::-webkit-scrollbar-thumb{
 
 /* start section deux ..............*/
 
-.bloc2 .ass{
-    padding: 5%;
-    /* padding-bottom: 3%; */
+ .ass{
+    padding: 4%;
+    padding-bottom: 3%;
     /* font-size: 20px; */
     
 }
 
-.propos img{
+/* .propos img{
     height: 60vh;
     width: 80vh;
-}
+} */
 .propos h2{
-    padding-bottom: 2%;
+    padding-top: 7%;
+    padding-bottom: 5%;
     font-size: 35px;
     font-weight: 600;
     color: rgb(43, 77, 43);
@@ -436,7 +439,9 @@ h1{
 
 /* ...............debut de la page galerie ......................................*/
 
-
+.galerie{
+    padding-top: 7%;
+}
 
 
 .photo{
@@ -547,15 +552,15 @@ b{
     opacity: 0.8;
     color:black;
     font-size: 10px;
-    margin-top: 10px;
-    margin-right: 10px;
+    /* margin-top: 10px; */
+    /* margin-right: 10px; */
     padding: 14px 20px;
     /* border: 1px solid; */
     border-right: none;
     cursor: pointer;
     width: 10%;
     right: 0;
-    position: absolute;
+    /* position: absolute; */
     z-index: 10;
 
 }
@@ -743,6 +748,11 @@ table td{
 
 /* ....................................page contact...................................... */
 
+
+.contact {
+
+    padding-top: 10%;
+}
 .contact .contact-form{
     padding: 2rem;
     background-color: rgb(43, 77, 43);
@@ -788,6 +798,9 @@ table td{
 .contact .contact-form .btn{
     margin-top: 2rem;
 }
+/* #container{
+    padding-top: 10%;
+} */
 
 
 /* .....................starts page footer ................................*/
@@ -948,7 +961,7 @@ table td{
     
 }
 
-@media(max-width:991px){ 
+/* @media(max-width:991px){ 
     
     .titre1 h1{
         padding: 200px;
@@ -975,7 +988,7 @@ table td{
     
 } */
 
-
+ 
 
     
 

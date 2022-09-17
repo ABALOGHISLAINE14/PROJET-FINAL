@@ -9,26 +9,14 @@
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
             <link rel="stylesheet" href="style.css">
             <link rel="stylesheet" href="contact_form.php">
+            
             <title>Connexion</title>
         </head>
         <body> 
             <!--Starts header section -->
-   <section class="header">
-    <img src="./IMAGES/logo.png.jpg" class="logo" alt="">
-    <!-- <a href="accueil.php" class="logo"> <img src="images/logo.png" alt=""> LOGO</a> -->
-    <nav class="navbar">
-    <a href="accueil.php">ACCUIEL</a>
-    <a href="ajdl.php">GALERIE</a>
-    <a href="activite.php">ACTIVITES</a>
-    <a href="offres.php">OFFRES</a>
-    <a href="projet.php">PROJETS</a>
-    <a href="contact.php">CONTACT</a>
-    <a class="btn btn-warning"href="index.php">INSCRIPTION</a> 
-    
-    
-    </nav>
-    <div id="menu-btn" class="fas fa-bars"></div>
-   </section>
+   
+   <?php include('navbar.php') ?>
+
         <body> 
             <!--Starts header section -->
             <section class=" container contact">
@@ -74,16 +62,16 @@
 
                     </div>
                     
-                    <input type="submit" value="submit" class="btn" name="send">
+                    <input type="submit" value="submit" class="btn btn-warning" name="send">
 
                 </form>
 
             </section>
 <!-- ......................................... -->
             
-<div id="container">
+<div id="container ">
         <form action="" method="post" class="formulaire">
-            <h2>Contactez-nous</h2>
+            <h2 class="text-center">Contactez-nous</h2>
             <label for="Nom et prénoms"></label>
             <input type="text" placeholder="entrer votre nom et prénom" name="nom" class="zonetext">
             <label for="email"></label>
@@ -113,7 +101,7 @@
 
      $sql = "INSERT INTO messages (nom, email, phone, message) VALUES ('$nom','$email', '$phone', '$message')";
      if (mysqli_query($connection, $sql)) {
-        echo "New record has been added successfully !";
+        echo "Message envoyé!";
      } else {
         echo "Error: " . $sql . ":-" . mysqli_error($connection);
      }

@@ -12,22 +12,9 @@
         </head>
         <body> 
             <!--Starts header section -->
-   <section class="header">
-    <img src="./IMAGES/logo.png.jpg" class="logo" alt="">
-    <!-- <a href="accueil.php" class="logo"> <img src="images/logo.png" alt=""> LOGO</a> -->
-    <nav class="navbar">
-    <a href="accueil.php">ACCUIEL</a>
-    <a href="ajdl.php">GALERIE</a>
-    <a href="activite.php">ACTIVITES</a>
-    <a href="offres.php">OFFRES</a>
-    <a href="projet.php">PROJETS</a>
-    <a href="contact.php">CONTACT</a>
-    <a class="btn btn-warning"href="index.php">INSCRIPTION</a> 
-    
-    
-    </nav>
-    <div id="menu-btn" class="fas fa-bars"></div>
-   </section>
+
+   <?php include('navbar.php') ?>
+
    <!-- Ends header section -->
 
 
@@ -104,5 +91,7 @@
                 font-weight: bold;
             }
         </style> -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
         </body>
 </html>

@@ -24,24 +24,9 @@
     
 <body>
     
-    <!--Starts header section -->
-   <section class="header">
-    <img src="./IMAGES/logo.png.jpg" class="logo" alt="">
-    <!-- <a href="accueil.php" class="logo"> <img src="images/logo.png" alt=""> LOGO</a> -->
-    <nav class="navbar">
-    <a href="accueil.php">ACCUIEL</a>
-    <a href="ajdl.php">GALERIE</a>
-    <a href="activite.php">ACTIVITES</a>
-    <a href="offres.php">OFFRES</a>
-    <a href="projet.php">PROJETS</a>
-    <a href="contact.php">CONTACT</a>
-    <a class="btn btn-warning"href="index.php">INSCRIPTION</a> 
     
-    </nav>
-    <div id="menu-btn" class="fas fa-bars"></div>
-   </section>
-   <!-- Ends header section -->
-
+   <?php include('navbar.php') ?>
+    
 
    <!-- accueil section -->
    
@@ -58,14 +43,14 @@
     <!-- end sous section une -->
 
     <!-- start section deux -->
-    <section class="bloc2 container-fluid">
-        <div class="container-fluid ">
+    <section class="bloc2 container-fluid ass">
+        <div class="container-fluid ass">
             <div class="row ass">
-                <div class="col propos">
-                    <img src="./IMAGES/46.jpg" alt="">
+                <div class="col-12 col-md-6">
+                    <img src="./IMAGES/46.jpg" class="w-100" alt="">
                 </div>
 
-                <div class="col order-5 propos">
+                <div class="col-12 col-md-6 order-5 propos">
                     <h2>A propos de nous</h2>
                     <p>
                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -91,7 +76,7 @@
 <!-- Start section trois...................................... -->
 
         <section class="Menu">
-            <div class="boxx-container  ">
+            <div class="boxx-container ">
                 <div class="boxx">
                     <div class="imagess">
                     <img src="./IMAGES/image4.jpg" alt="">

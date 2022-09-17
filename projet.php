@@ -22,21 +22,9 @@
 <body>
     
     <!--Starts header section -->
-   <section class="header">
-    <img src="./IMAGES/logo.png.jpg" class="logo" alt="">
-    <!-- <a href="accueil.php" class="logo"> <img src="images/logo.png" alt=""> LOGO</a> -->
-    <nav class="navbar">
-    <a href="accueil.php">ACCUIEL</a>
-    <a href="ajdl.php">GALERIE</a>
-    <a href="activite.php">ACTIVITES</a>
-    <a href="offres.php">OFFRES</a>
-    <a href="projet.php">PROJETS</a>
-    <a href="contact.php">CONTACT</a>
-    <a class="btn btn-warning"href="index.php">INSCRIPTION</a> 
-    
-    </nav>
-    <div id="menu-btn" class="fas fa-bars"></div>
-   </section>
+  
+   <?php include('navbar.php') ?>
+
    <!-- Ends header section -->
 
    <!-- Start section une -->
@@ -60,7 +48,7 @@
       
         <div class="row">
             <div class="imgg">
-                <img src="./IMAGES/58.jpg" alt="">
+                <img src="./IMAGES/58.jpg" alt=""class="w-100"  >
             </div>
             <div class="bose-container"> 
                 <div class="bose">

@@ -18,7 +18,7 @@ if(isset($_POST['send'])){
     values('$name','$email','$phone','$address','$location','$guests','$arrivals','$leaving')";
 
     if (mysqli_query($connection, $request)) {
-        echo "created successfully";
+        echo "Message envoyé";
       } else {
         echo "Error: " . $request . "<br>" . mysqli_error($connection);
       };

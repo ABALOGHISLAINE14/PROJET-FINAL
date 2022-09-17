@@ -21,22 +21,9 @@
     
 <body>
     
-    <!--Starts header section -->
-   <section class="header">
-    <img src="./IMAGES/logo.png.jpg" class="logo" alt="">
-    <!-- <a href="accueil.php" class="logo"> <img src="images/logo.png" alt=""> LOGO</a> -->
-    <nav class="navbar">
-    <a href="accueil.php">ACCUIEL</a>
-    <a href="ajdl.php">GALERIE</a>
-    <a href="activite.php">ACTIVITES</a>
-    <a href="offres.php">OFFRES</a>
-    <a href="projet.php">PROJETS</a>
-    <a href="contact.php">CONTACT</a>
-    <a class="btn btn-warning"href="index.php">INSCRIPTION</a> 
     
-    </nav>
-    <div id="menu-btn" class="fas fa-bars"></div>
-   </section>
+   <?php include('navbar.php') ?>
+
    <!-- Ends header section -->
 
    <!-- Start section une -->
@@ -56,7 +43,7 @@
         <div class="row">
         
           <div class="col-lg-4 act">
-            <img src="./IMAGES/56.jpg" alt="">
+            <img src="./IMAGES/56.jpg" alt="" class="w-100">
 
           </div>
           <div class="col-lg-4 act">
@@ -107,7 +94,7 @@
 
           </div>
           <div class="col-lg-4 act">
-            <img src="./IMAGES/26.jpg" alt="">
+            <img src="./IMAGES/26.jpg" alt=""class="w-100" >
 
           </div>
           
@@ -120,7 +107,7 @@
         <div class="row">
         
           <div class="col-lg-4 act">
-            <img src="./IMAGES/34.jpg" alt="">
+            <img src="./IMAGES/34.jpg" alt=""class="w-100" >
 
           </div>
 
@@ -164,8 +151,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 
     <!-- swiper js link -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script> -->
     <!-- custom js file link -->
-    <script src="script.js"></script>
+    <!-- <script src="script.js"></script> -->
 </body>
 </html>

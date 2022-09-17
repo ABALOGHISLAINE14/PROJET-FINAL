@@ -15,9 +15,9 @@
 
  <!--Starts header section -->
  <section class="header">
-    <img src="./IMAGES/logo.png.jpg" class="logo" alt="">
+    <!-- <img src="./IMAGES/logo.png.jpg" class="logo" alt=""> -->
     <!-- <a href="accueil.php" class="logo"> <img src="images/logo.png" alt=""> LOGO</a> -->
-    <nav class="navbar">
+    <!-- <nav class="navbar">
     <a href="accueil.php">ACCUIEL</a>
     <a href="ajdl.php">GALERIE</a>
     <a href="activite.php">ACTIVITES</a>
@@ -27,7 +27,9 @@
     <a class="btn btn-warning"href="index.php">INSCRIPTION</a> 
     
     </nav>
-    <div id="menu-btn" class="fas fa-bars"></div>
+    <div id="menu-btn" class="fas fa-bars"></div> --> 
+    <?php include('navbar.php') ?>
+    
    </section>
 
 

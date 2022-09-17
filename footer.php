@@ -78,7 +78,7 @@ if(isset($_POST['subscribe'])){
     values('$email')";
 
     if (mysqli_query($connection, $request)) {
-        echo "New record created successfully";
+        echo "E-mail envoyé";
       } else {
         echo "Error: " . $request . "<br>" . mysqli_error($connection);
       };
