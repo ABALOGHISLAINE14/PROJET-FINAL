@@ -28,8 +28,8 @@
 
    <!-- Start section une -->
     <section class="">
-      <div class="titre1">
-        <div class="titre0">
+      <div class="titre1"style="height: 500px" >
+        <div class="titre0 "style="height: 500px" >
             <h1>LES ACTIVITES DE L'ASSOCIATION DES JEUNES POUR LE DEVELOPPEMENT LOCAL</h1>
         </div>
       </div>
@@ -48,21 +48,13 @@
           </div>
           <div class="col-lg-4 act">
             <H2>ENTREPREUNARIAT</H2> <br>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-              Fuga molestias cupiditate eum dolores voluptas, 
-              voluptates quasi explicabo. 
-              Molestias nostrum obcaecati deleniti excepturi! 
-              Quibusdam maiores voluptates nisi corporis modi dignissimos
-               inventore dicta obcaecati ad itaque veniam doloremque in, 
-              aliquam labore ipsum corrupti expedita a ratione nemo?Lorem ipsum dolor sit amet, 
-              consectetur adipisicing elit. 
-              Fuga molestias cupiditate eum dolores voluptas, 
-              voluptates quasi explicabo. 
-              Molestias nostrum obcaecati deleniti excepturi! 
-              Quibusdam maiores voluptates nisi corporis modi dignissimos
-               inventore dicta obcaecati ad itaque veniam doloremque in, 
-              aliquam labore ipsum corrupti expedita a ratione nemo?
+            <p>Réduire la pauvreté à Zéro et Favoriser l’autonomie financière des jeunes
+               sont des idées principales qui motivent AJDL à promouvoir l’entreprenariat des jeunes. 
+               AJDL a déjà formé plus de 100 jeunes filles en fabrication d’accessoires en pagne et
+                encourage les artisans et les jeunes 
+               entrepreneurs à travers des actions comme : la Foire du Tourisme Entreprenariat.
+              
+
             </p> <br>
             <a href="ajdl.php"><button type="button" class="btn btn-warning">Découvrir</button></a>
 
@@ -75,20 +67,9 @@
           <div class="col-lg-4 act">
               <H2>TOURISME</H2> <br>
                 <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-              Fuga molestias cupiditate eum dolores voluptas, 
-              voluptates quasi explicabo. 
-              Molestias nostrum obcaecati deleniti excepturi! 
-              Quibusdam maiores voluptates nisi corporis modi dignissimos
-               inventore dicta obcaecati ad itaque veniam doloremque in, 
-              aliquam labore ipsum corrupti expedita a ratione nemo?Lorem ipsum dolor sit amet, 
-              consectetur adipisicing elit. 
-              Fuga molestias cupiditate eum dolores voluptas, 
-              voluptates quasi explicabo. 
-              Molestias nostrum obcaecati deleniti excepturi! 
-              Quibusdam maiores voluptates nisi corporis modi dignissimos
-               inventore dicta obcaecati ad itaque veniam doloremque in, 
-              aliquam labore ipsum corrupti expedita a ratione nemo?
+                Dans le but d’atteindre ses objectifs, Association des Jeunes pour le Développement 
+                Locale permet à la population surtout aux jeunes diplômés d’aller à la découverte 
+                du pays afin de saisir des opportunités d’affaires et visiter les locaux.
                 </p> <br>
                 <a href="ajdl.php"><button type="button" class="btn btn-warning">Découvrir</button></a>
 
@@ -114,20 +95,11 @@
           <div class="col-lg-4 act">
             <H2>CULTURE</H2> <br>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-              Fuga molestias cupiditate eum dolores voluptas, 
-              voluptates quasi explicabo. 
-              Molestias nostrum obcaecati deleniti excepturi! 
-              Quibusdam maiores voluptates nisi corporis modi dignissimos
-               inventore dicta obcaecati ad itaque veniam doloremque in, 
-              aliquam labore ipsum corrupti expedita a ratione nemo?Lorem ipsum dolor sit amet, 
-              consectetur adipisicing elit. 
-              Fuga molestias cupiditate eum dolores voluptas, 
-              voluptates quasi explicabo. 
-              Molestias nostrum obcaecati deleniti excepturi! 
-              Quibusdam maiores voluptates nisi corporis modi dignissimos
-               inventore dicta obcaecati ad itaque veniam doloremque in, 
-              aliquam labore ipsum corrupti expedita a ratione nemo?
+            La culture  constitue un moyen de développement économique.
+            C’est dans ce sens que l’AJDL œuvre ardemment pour la promotion de la culture togolaise.
+            Elle ne ménage aucun effort à intervenir auprès des locaux afin de les sensibiliser 
+            et former sur l’importance de leurs activités.
+
             </p> <br>
             <a href="ajdl.php"><button type="button" class="btn btn-warning">Découvrir</button></a>
 

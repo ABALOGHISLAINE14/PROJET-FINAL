@@ -107,7 +107,7 @@ html::-webkit-scrollbar-thumb{
 
 /* .starts sous-section une.. */
 .titre0{
-    background-color:rgba(0, 0, 0, 0.445) ;
+    background-color:rgba(248, 221, 221, 0.096) ;
     z-index: 30;
     position: absolute;
     width: 100%;
@@ -139,7 +139,7 @@ html::-webkit-scrollbar-thumb{
 
  .ass{
     padding: 4%;
-    padding-bottom: 3%;
+    /* padding-bottom: 3%; */
     /* font-size: 20px; */
     
 }
@@ -149,14 +149,14 @@ html::-webkit-scrollbar-thumb{
     width: 80vh;
 } */
 .propos h2{
-    padding-top: 7%;
+    padding-top: 5%;
     padding-bottom: 5%;
     font-size: 35px;
     font-weight: 600;
     color: rgb(43, 77, 43);
 }
 .propos p{
-    font-size: 17px;
+    font-size: 20px;
     text-align: justify;
 }
 
@@ -192,12 +192,16 @@ html::-webkit-scrollbar-thumb{
     text-align: center;
     margin: 1.5rem;
     padding: 1rem;
-    border: 0.5rem solid black;
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, .15);
+
+    /* border: 0.5rem solid black; */
     width: 27rem;
 }
 
 .missions .boxx-container .boxx:hover{
     background-color: rgb(231, 233, 102)
+    
+
 }
 
 .missions .boxx-container .boxx i{
@@ -205,7 +209,7 @@ html::-webkit-scrollbar-thumb{
     width: 7rem;
     line-height: 7rem;
     text-align: center;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     background-color: white;
     color: rgb(233, 52, 52);
     font-size: 3rem;
@@ -213,14 +217,16 @@ html::-webkit-scrollbar-thumb{
 }
 
 .missions .boxx-container .boxx h3{
-    color: rgb(33, 59, 33);
+    color: rgb(195, 206, 38);
     font-size: 2.5rem;
 }
 
 .missions .boxx-container .boxx p{
     color: var(--black);
     font-size: 1.5rem;
-    padding: 1rem, 5rem;
+    font-weight: 600;
+    padding: 1rem, 2rem;
+    text-align: center;
 }
 
 /* Ends section trois */
@@ -230,6 +236,7 @@ html::-webkit-scrollbar-thumb{
 .Menu{
     min-height: 100vh;
     /* background-color: #ff9; */
+    
 
 }
 
@@ -284,9 +291,14 @@ html::-webkit-scrollbar-thumb{
 /* .......start section cinq............... */
 .team .card-body{
     font-size: 20px;
+    
+    
 }
 .team .card{
-    box-shadow: 15px 15px 40px rgba(0, 0, 0, .15);
+    /* box-shadow: 15px 15px 40px rgba(0, 0, 0, .15); */
+    box-shadow: 15px 15px 40px rgba(46, 71, 50, 0.678);
+
+
 }
 .team .card h3{
     color: rgb(99, 99, 23);
@@ -294,14 +306,15 @@ html::-webkit-scrollbar-thumb{
 }
 .team .card p{
     font-size: 15px;
+    font-weight: 700;
 }
 .team h2{
     font-size: 30px;
     font-weight: 700;
-    color: rgb(30, 54, 30);
+    color: rgb(51, 94, 51);
 }
 .team p{
-    font-size: 15px;
+    font-size: 20px;
 }
 /* ..............fin de la section......... */
 *{
@@ -491,13 +504,16 @@ h1{
     /* border: 2px solid; */
     border-left: none;
     border-right: none;
-    background-color: rgb(241, 241, 93);
+    background-image: url(./IMAGES/68.jpg);
+    
+    /* background-color: rgb(241, 241, 93); */
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    width: 100%;
     min-height: 10%;
     text-align: center;
-    padding: 2%;
+    padding: 12%;
+    
 }
 #motcle{
     height: 30px;
@@ -710,6 +726,7 @@ table td{
     background: #f7f7f7;
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
     padding: 30px;
+    
 }
 .login-form h2 {
     margin: 0 0 15px;
@@ -798,9 +815,7 @@ table td{
 .contact .contact-form .btn{
     margin-top: 2rem;
 }
-/* #container{
-    padding-top: 10%;
-} */
+
 
 
 /* .....................starts page footer ................................*/
@@ -812,6 +827,7 @@ table td{
     color: white;
     background-size: cover;
     background-position: center;
+    
 }
 
 .footer .box-container{

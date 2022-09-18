@@ -40,22 +40,22 @@
                             <input type="number"  required placeholder="entrer votre numéro" name="address">
                         </div>
                         <div class="inputbox">
-                            <span>where to :</span>
-                            <input type="numero"  required placeholder="place you want to visit" name="location">
+                            <span>Lieu :</span>
+                            <input type="numero"  required placeholder="place ou ville à visiter" name="location">
                         </div>
                         
                         <div class="inputbox">
-                            <span>how many :</span>
+                            <span>nombre de jour :</span>
                             <input type="number" required  placeholder="entrer votre numéro" name="guests">
                         </div>
                         
                         <div class="inputbox">
-                            <span>arrivals :</span>
+                            <span>Arrivé :</span>
                             <input required type="date" name="arrivals">
                         </div>
                         
                         <div class="inputbox">
-                            <span>leaving :</span>
+                            <span>Départ :</span>
                             <input required type="date" name="leaving">
                         </div>
                         <br>
@@ -69,8 +69,8 @@
             </section>
 <!-- ......................................... -->
             
-<div id="container ">
-        <form action="" method="post" class="formulaire">
+<div id="container">
+        <form action="" method="post" class="formulaire container">
             <h2 class="text-center">Contactez-nous</h2>
             <label for="Nom et prénoms"></label>
             <input type="text" placeholder="entrer votre nom et prénom" name="nom" class="zonetext">
@@ -111,6 +111,20 @@
             
         </form>
     </div>
+
+<!-- footer section start -->
+
+<?php include('footer.php') ?>
+    <!-- footer section ends -->
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+    <!-- swiper js link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- custom js file link -->
+    <script src="srcipt.js"></script>
+
 </body>
         
 </body>

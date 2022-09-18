@@ -13,20 +13,7 @@
         <body> 
             <!--Starts header section -->
    <section class="header">
-    <img src="./IMAGES/logo.png.jpg" class="logo" alt="">
-    <!-- <a href="accueil.php" class="logo"> <img src="images/logo.png" alt=""> LOGO</a> -->
-    <nav class="navbar">
-    <a href="accueil.php">ACCUIEL</a>
-    <a href="ajdl.php">AJDL</a>
-    <a href="activite.php">ACTIVITES</a>
-    <a href="offres.php">OFFRES</a>
-    <a href="projet.php">PROJETS</a>
-    <a href="contact.php">CONTACT</a>
-    <a class="btn btn-warning"href="index.php">INSCRIPTION</a> 
-    
-    
-    </nav>
-    <div id="menu-btn" class="fas fa-bars"></div>
+   <?php include('navbar.php') ?>
    </section>
    <!-- Ends header section -->
 
@@ -92,7 +79,7 @@
                 ?>
             
             <form action="inscription_traitement.php" method="post">
-                <h2 class="text-center">ADHESION</h2>       
+                <h2 class="text-center">Connexion</h2>       
                 <div class="form-group">
                     <input type="text" name="pseudo" class="form-control" placeholder="Entrer votre nom et prénoms" required="required" autocomplete="off">
                 </div>
@@ -106,7 +93,7 @@
                     <input type="password" name="password_retype" class="form-control" placeholder="Re-tapez le mot de passe" required="required" autocomplete="off">
                 </div>
                 <div class="form-group">
-                    <button type="submit" class="btn btn-success btn-block">Adhérer</button>
+                    <button type="submit" class="btn btn-success btn-block">Inscription</button>
                 </div>   
             </form>
         </div>

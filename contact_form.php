@@ -1,3 +1,5 @@
+
+<div class="">
 <?php
 
 
@@ -18,10 +20,22 @@ if(isset($_POST['send'])){
     values('$name','$email','$phone','$address','$location','$guests','$arrivals','$leaving')";
 
     if (mysqli_query($connection, $request)) {
-        echo "Message envoyé";
+        echo "Réservation envoyée";
       } else {
         echo "Error: " . $request . "<br>" . mysqli_error($connection);
-      };
+      }
+      mysqli_close($connection);
     }
 
 ?>
+
+
+</div>
+
+
+
+
+
+
+
+

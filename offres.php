@@ -60,13 +60,15 @@
 
                 <form  name="formservice"action="" method="post">
                     <input id="motcle" type="text" name="motcle" placeholder="Entrer votre demande">
-                    <input class="btfind" type="submit" name="btsubmit" value="recherche">       
+                    <input class="btfind" type="submit" name="btsubmit" value="recherche"> 
+                    <br> <br>  <br> <br>
+                    <a href="contact.php" class=""><button type="submit" class="btn btn-warning center">Réserver</button></a>     
     
-                    <a class="btfind"href="contact.php"><input type="submit" name="btsubmit" value="">Réserver</a>
+                    <!-- <a class="btfind"href="contact.php"><input type="submit" name="btsubmit" value="">Réserver</a> -->
                     
                 </form>
 
-                <a href="loginn.php"class="login">se connecter</a>
+                <!-- <a href="loginn.php"class="login">se connecter</a> -->
             </div>
             <!-- <a href="loginn.php"class="login">se connecter</a> -->
 

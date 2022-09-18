@@ -48,6 +48,8 @@
     
     
     <div class="container galerie">
+
+    <h1>DECOUVREZ NOS ACTUALITES</h1>
         <div class="  photo">
 
             <a href="./IMAGES/41.jpg"data-lightbox="mygallery"><img src="./IMAGES/41.jpg" alt=""></a>

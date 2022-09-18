@@ -23,26 +23,36 @@
     
     <!--Starts header section -->
   
-   <?php include('navbar.php') ?>
+    <?php include('navbar.php') ?> 
 
    <!-- Ends header section -->
 
    <!-- Start section une -->
     <section class="">
-      <div class="titre1">
-        <div class="titre0">
-            <h1>LES PROJETS DE L'ASSOCIATION DES JEUNES POUR LE DEVELOPPEMENT LOCAL</h1>
+      <div class="titre1 "style="height: 500px" >
+        <!-- <div class="titre0"style="height: 500px" > -->
+            <!-- <h1>LES PROJETS DE L'ASSOCIATION DES JEUNES POUR LE DEVELOPPEMENT LOCAL</h1> -->
+            <h1>SOUTENEZ NOS PROJETS
+            <p class="fs-2">Vous trouvez notre initiative légitime et souhaiterez nous encourager? <br>
+        Vous pouvez nous aider de nombreuses manières, soit en devenant adhérant et joignez vous à cette belle
+        aventure ou soit en nous faisant un dons
+            </p>
+            <a href="contact.php"> <button class="btn btn-warning"type="submit">Contactez-nous</button></a>
+            </h1>
+
         </div>
       </div>
     </section>
+
     
+
     <div class="projet"> 
-      <h2>SOUTENEZ NOS PROJETS</h2>
+      <!-- <h2>SOUTENEZ NOS PROJETS</h2>
       <p>Vous trouvez notre initiative légitime et souhaiterez nous encourager? <br>
         Vous pouvez nous aider de nombreuses manières, soit en devenant adhérant et joignez vous à cette belle
         aventure ou soit en nous faisant un dons
 
-      </p>
+      </p> -->
     </div>
     <section class=" container But" >
       
@@ -53,27 +63,26 @@
             <div class="bose-container"> 
                 <div class="bose">
                     <h3> <i class="fas fa-user"> Projet 1</i></h3>
-                    <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                        Id esse fugit aliquam doloribus inventore exercitati
-                        voluptatibus fugiat! Fuga at repudiandae iure libero re.</P>
+                    <br>
+                    <P>TROISIEME EDITION DE LA FOIRE  ENTREPRENEURIAL  A KPALIME DU 06 AU 09 OCTOBRE 2022.</P>
                 </div>
                 <div class="bose">
                   <h3><i class="fas fa-user">  projet 2</i></h3>
-                    <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                        Id esse fugit aliquam doloribus inventore exercitationem?
-                        voluptatibus fugiat! Fuga at repudiandae iure libero repellat.</P>
+                  <br>
+                    <P>FORMATION DES JEUNES ET DES ARTISANTS DANS LA REGION DES SAVANES.
+                    
+                    </P>
                 </div>
                 <div class="bose">
                     <h3><i class="fas fa-user">  projet 3</i></h3>
-                    <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                        Id esse fugit aliquam doloribus inventore exercitationem? 
-                        voluptatibus fugiat! Fuga at repudiandae iure libero repellat.</P>
+                    <br>
+                    <P>PREPARATION DE LA QUATRIEME EDITION DE LA FOIRE ENTREPRENEURIAL AU NORD DU TOGO (KARA).</P>
                 </div>
                 <div class="bose">
                     <h3><i class="fas fa-user">  Projet 4</i></h3>
-                    <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                        Id esse fugit aliquam doloribus inventore exercitationem
-                        voluptatibus fugiat! Fuga at repudiandae iure libero repellat.</P>
+                    <P>
+                      ACCOMPAGNEMENT DES NOUVEAUX ENTREPREUNEURS DE LA REGION DES PLATEAUX.
+                    </P>
                 </div>
 
             </div>
