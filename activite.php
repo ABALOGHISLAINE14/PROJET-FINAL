@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>accuiel</title>
+    <title>ACTIVITES</title>
     <!-- swiper css link -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8swiper-bundle.min.css"/>
 
@@ -75,6 +75,7 @@
 
           </div>
           <div class="col-lg-4 act">
+            <!-- <video src="./IMAGES/77.mp4" id="video"></video> -->
             <img src="./IMAGES/26.jpg" alt=""class="w-100" >
 
           </div>

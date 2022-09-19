@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>accuiel</title>
+    <title>Offres</title>
     <!-- swiper css link -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8swiper-bundle.min.css"/>
 
@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="style.css">
 
     <!-- boostrap --><!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 
 </head>
     
@@ -23,7 +23,9 @@
     
     <!--Starts header section -->
   
-   <?php include('navbar.php') ?>
+   <?php 
+    include('navbar.php')
+    ?>
 
    <!-- Ends header section -->
 
@@ -39,8 +41,6 @@
     
         <?php
         require_once('service.php');
-
-
         ?>
 
         
@@ -62,7 +62,8 @@
                     <input id="motcle" type="text" name="motcle" placeholder="Entrer votre demande">
                     <input class="btfind" type="submit" name="btsubmit" value="recherche"> 
                     <br> <br>  <br> <br>
-                    <a href="contact.php" class=""><button type="submit" class="btn btn-warning center">Réserver</button></a>     
+                    <button type="submit" >  </button>  
+                     <a href="contact.php"  class="btn btn-warning center"> réserver</a>   
     
                     <!-- <a class="btfind"href="contact.php"><input type="submit" name="btsubmit" value="">Réserver</a> -->
                     

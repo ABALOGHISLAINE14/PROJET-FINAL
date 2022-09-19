@@ -51,9 +51,7 @@ html::-webkit-scrollbar-thumb{
     background-color: rgb(43, 77, 43);
     font-size: 1.5rem;
     color: white; 
-    
-    
-    
+     
 }
 #header a{
     color: white;
@@ -61,6 +59,10 @@ html::-webkit-scrollbar-thumb{
     padding-right: 10px;
     margin-right: 20px;
     
+}
+
+#header a:hover{
+    color: #d1f048;
 }
 
 .logo{
@@ -289,9 +291,11 @@ html::-webkit-scrollbar-thumb{
 
 /* ...............end secction quatre */
 /* .......start section cinq............... */
+#team{
+    padding-bottom: 15%;
+}
 .team .card-body{
     font-size: 20px;
-    
     
 }
 .team .card{
@@ -374,6 +378,13 @@ h1{
 /* ......................fin de la page activités................................ */
 
 /*............................. debut de la page projet....................... */
+
+.projects P{
+    text-align: center;
+    padding-top: 5%;
+    color: rgb(63, 83, 47);
+    font-weight: 700;
+}
 
 .projet h2{
     font-size: 3rem;
@@ -488,19 +499,19 @@ h1{
     padding: 0;
     width: 100%;
     height: 50%;
-    position: relative;
-    overflow: hidden;
-    background-color: transparent;
-    z-index: 1;
+    /* position: relative;
+    overflow: hidden; */
+
+    
 }
 #entete p{
-    color: rgb(21, 61, 21);
+    color: rgb(224, 204, 24);
     font-size: 3rem;
     text-align: center;
     
 }
 #formservice{
-    position: relative;
+    
     /* border: 2px solid; */
     border-left: none;
     border-right: none;
@@ -576,7 +587,11 @@ b{
     cursor: pointer;
     width: 10%;
     right: 0;
-    /* position: absolute; */
+    position: fixed;
+    background-color: yellowgreen;
+    margin-top: 100px;
+    border: 2px solid;
+    display: none;
     z-index: 10;
 
 }
@@ -977,19 +992,24 @@ table td{
     
 }
 
-/* @media(max-width:991px){ 
+
+
+
+
+
+ @media(max-width:991px){ 
     
-    .titre1 h1{
-        padding: 200px;
-        font-size: 5rem;
+    .projects p {
+        /* padding: 10px; */
+        font-size: 20px;
     }
     
 }
 @media(max-width:768px){
     
-    .titre1 h1{
-        padding: 150px;
-        font-size: 3rem;
+    .projects p {
+        /* padding: 10px; */
+        font-size: 15px;
     }
     
 }
@@ -997,12 +1017,13 @@ table td{
 
 @media(max-width:450px){
     
-    .titre1 h1{
-        padding: 150px;
-        font-size: 2rem;
+    .projects p {
+        /* padding: 5px; */
+        font-size:10px !important;
+        
     }
     
-} */
+} 
 
  
 

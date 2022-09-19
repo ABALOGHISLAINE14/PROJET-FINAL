@@ -1,7 +1,4 @@
-
-<div class="">
 <?php
-
 
 $connection = mysqli_connect('localhost', 'root', '', 'connexion');
 
@@ -25,12 +22,9 @@ if(isset($_POST['send'])){
         echo "Error: " . $request . "<br>" . mysqli_error($connection);
       }
       mysqli_close($connection);
-    }
+    } else{ header('Location: offres.php'); die();}
 
 ?>
-
-
-</div>
 
 
 

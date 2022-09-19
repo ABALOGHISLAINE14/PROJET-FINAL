@@ -10,7 +10,7 @@
             <link rel="stylesheet" href="style.css">
             <link rel="stylesheet" href="contact_form.php">
             
-            <title>Connexion</title>
+            <title>CONTACT</title>
         </head>
         <body> 
             <!--Starts header section -->
@@ -21,18 +21,18 @@
             <!--Starts header section -->
             <section class=" container contact">
                 <h2 >RESERVATION</h2>
-                <form action="contact_form.php" method="post" class="contact-form">
+                <form action="" method="post" class="contact-form">
                     <div class="flex">
                         <div class="inputbox">
-                            <span>name :</span>
-                            <input type="text"  required placeholder="entrer votre nom" name="name">
+                            <span>Nom et prénoms :</span>
+                            <input type="text"  required placeholder="entrer votre nom et prénoms" name="name">
                         </div>
                         <div class="inputbox">
-                            <span>email :</span>
+                            <span>E-mail:</span>
                             <input type="email"  required placeholder="entrer votre mail" name="email">
                         </div>
                         <div class="inputbox">
-                            <span>phone :</span>
+                            <span>Téléphone :</span>
                             <input type="phone"  required placeholder="entrer votre numéro" name="phone">
                         </div>
                         <div class="inputbox">
@@ -50,7 +50,7 @@
                         </div>
                         
                         <div class="inputbox">
-                            <span>Arrivé :</span>
+                            <span>Arrivée :</span>
                             <input required type="date" name="arrivals">
                         </div>
                         
@@ -63,6 +63,34 @@
                     </div>
                     
                     <input type="submit" value="submit" class="btn btn-warning" name="send">
+                    <?php
+
+$connection = mysqli_connect('localhost', 'root', '', 'connexion');
+
+if(isset($_POST['send'])){
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $phone = $_POST['phone'];
+    $address = $_POST['address'];
+    $location = $_POST['location'];
+    $guests = $_POST['guests'];
+    $arrivals = $_POST['arrivals'];
+    $leaving = $_POST['leaving'];
+
+
+    $request = "insert into contact_form (name, email, phone, address, location, guests, arrivals, leaving) 
+    values('$name','$email','$phone','$address','$location','$guests','$arrivals','$leaving')";
+
+    if (mysqli_query($connection, $request)) {
+        echo "Réservation envoyée";
+      } else {
+        echo "Error: " . $request . "<br>" . mysqli_error($connection);
+      }
+    //   mysqli_close($connection);
+    } 
+    // else{ header('Location: offres.php'); die();}
+
+?>
 
                 </form>
 
@@ -73,17 +101,17 @@
         <form action="" method="post" class="formulaire container">
             <h2 class="text-center">Contactez-nous</h2>
             <label for="Nom et prénoms"></label>
-            <input type="text" placeholder="entrer votre nom et prénom" name="nom" class="zonetext">
+            <input type="text" placeholder="entrer votre nom et prénom" name="nom" class="zonetext mb-3">
             <label for="email"></label>
-            <input type="text" placeholder="entrer votre email" name="email" class="zonetext">
+            <input type="text" placeholder="entrer votre email" name="email" class="zonetext mb-3">
             <label for="Téléphone">
 
             </label>
-            <input type="text" placeholder="entrer numéro de téléphone" name="phone" class="zonetext">
+            <input type="text" placeholder="entrer numéro de téléphone" name="phone" class="zonetext mb-3">
 
-            <textarea class="zonetext" name="message" id="" placeholder="entrer votre message" cols="30" rows="10"></textarea>
+            <textarea class="zonetext mb-3" name="message" id="" placeholder="entrer votre message" cols="30" rows="10"></textarea>
 
-            <input type="submit" name="envoyer" value="envoyer" id="envoyer" class="submit">
+            <input type="submit" name="envoyer" value="envoyer" id="envoyer" class="submit mb-3">
             
             <?php
 

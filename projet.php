@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>accuiel</title>
+    <title>PROJET</title>
     <!-- swiper css link -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8swiper-bundle.min.css"/>
 
@@ -28,19 +28,25 @@
    <!-- Ends header section -->
 
    <!-- Start section une -->
-    <section class="">
+    <section class="projects">
       <div class="titre1 "style="height: 500px" >
         <!-- <div class="titre0"style="height: 500px" > -->
             <!-- <h1>LES PROJETS DE L'ASSOCIATION DES JEUNES POUR LE DEVELOPPEMENT LOCAL</h1> -->
-            <h1>SOUTENEZ NOS PROJETS
-            <p class="fs-2">Vous trouvez notre initiative légitime et souhaiterez nous encourager? <br>
-        Vous pouvez nous aider de nombreuses manières, soit en devenant adhérant et joignez vous à cette belle
-        aventure ou soit en nous faisant un dons
-            </p>
+            <h1 class=" ">SOUTENEZ NOS PROJETS <br>
             <a href="contact.php"> <button class="btn btn-warning"type="submit">Contactez-nous</button></a>
             </h1>
-
+            
         </div>
+      </div>
+
+      <div class="projects container">
+        <p class="fs-2 projects">Vous trouvez notre initiative légitime et souhaiterez nous encourager? 
+        Vous pouvez nous aider de nombreuses manières, soit en devenant adhérant et joignez vous à cette belle
+        aventure ou soit en nous faisant un dons.
+            </p>
+
+
+
       </div>
     </section>
 
