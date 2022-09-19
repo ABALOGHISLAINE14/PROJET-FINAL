@@ -1,7 +1,8 @@
 <!-- <?php
 
-$connection = mysqli_connect('localhost', 'root', '', 'connexion');
+//$connection = mysqli_connect('localhost', 'root', '', 'connexion');
 
+$connection = mysqli_connect('mysql-ghislaine.alwaysdata.net', 'ghislaine', 'Ghislaine1234@1234', 'ghislaine_projet');
 
 if(isset($_POST['envoyer']))
 {    

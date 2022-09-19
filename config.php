@@ -8,7 +8,8 @@
          */
     try 
     {
-        $bdd = new PDO("mysql:host=localhost;dbname=connexion;charset=utf8", "root", "");
+        $bdd = new PDO("mysql:host=mysql-ghislaine.alwaysdata.net;dbname=ghislaine_projet;charset=utf8", "ghislaine", "Ghislaine1234@1234");
+        //"mysql:host={$host};dbname={$dbname};"
     }
     catch(PDOException $e)
     {

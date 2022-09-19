@@ -22,18 +22,18 @@
 <div class="box-container">
 <div class="box menu">
 <h3>Navigation</h3>
-<a href="accueil.php"> <i class="fas fa-angle-right"></i> Accueil</a>
+<a href="index.php"> <i class="fas fa-angle-right"></i> Accueil</a>
 <a href="ajdl.php"> <i class="fas fa-angle-right"></i>  Galerie</a>
 <a href="activite.php"> <i class="fas fa-angle-right"></i>  Ativités</a>
 <a href="offres.php"> <i class="fas fa-angle-right"></i> Offres</a>
 <a href="projet.php">  <i class="fas fa-angle-right"></i> Projets</a>
 <a href="contact.php"> <i class="fas fa-angle-right"></i> Contact</a>
-<a href="index.php">  <i class="fas fa-angle-right"></i> Inscription</a> 
+<a href="ins.php">  <i class="fas fa-angle-right"></i> Inscription</a> 
 </div>
 
 <div class="box">
 <h3>Contactez-nous</h3>
-<a href="accueil.php"> <i class="fas fa-phone"></i> 228 93 98 44 33</a>
+<a href="index.php"> <i class="fas fa-phone"></i> 228 93 98 44 33</a>
 <a href="ajdl.php"> <i class="fas fa-phone"></i>  228 98 98 44 33</a>
 <a href="activite.php"> <i class="fas fa-envelope"></i>  ajdl_tgafrique@gmail.com</a>
 <a href="projet.php">  <i class="fas fa-map"></i> TOGO-LOME</a>
@@ -69,7 +69,7 @@
  <?php
     
     
-$connection = mysqli_connect('localhost', 'root', '', 'connexion');
+$connection = mysqli_connect('mysql-ghislaine.alwaysdata.net', 'ghislaine', 'Ghislaine1234@1234', 'ghislaine_projet');
 
 if(isset($_POST['subscribe'])){
     $email = $_POST['email'];

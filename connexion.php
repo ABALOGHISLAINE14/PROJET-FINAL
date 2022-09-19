@@ -31,7 +31,7 @@
                     $_SESSION['user'] = $data['token'];
                     header('Location: landing.php');
                     die();
-                }else{ header('Location: index.php?login_err=password'); die(); }
-            }else{ header('Location: index.php?login_err=email'); die(); }
-        }else{ header('Location: index.php?login_err=already'); die(); }
-    }else{ header('Location: index.php'); die();} // si le formulaire est envoyé sans aucune données
+                }else{ header('Location: ins.php?login_err=password'); die(); }
+            }else{ header('Location: ins.php?login_err=email'); die(); }
+        }else{ header('Location: ins.php?login_err=already'); die(); }
+    }else{ header('Location: ins.php'); die();} // si le formulaire est envoyé sans aucune données

@@ -3,7 +3,7 @@
     require_once 'config.php'; // ajout connexion bdd 
    // si la session existe pas soit si l'on est pas connecté on redirige
     if(!isset($_SESSION['user'])){
-        header('Location:index.php');
+        header('Location:ins.php');
         die();
     }
 
@@ -52,7 +52,7 @@
                           Changer mon mot de passe
                         </button>
                         <div class="btn btn-warning">
-                                <a href="accueil.php">Retourner à la page d'accueil</a>
+                                <a href="index.php">Retourner à la page d'accueil</a>
                             </div>
                 </div>
                 
